@@ -1,0 +1,459 @@
+{
+ "date": "2026-10-12",
+ "date_label": "Mon · Oct 12, 2026",
+ "slides": [
+  {
+   "type": "cover",
+   "kicker": "Daily war brief",
+   "title": "World<br>at [[war]]",
+   "fronts": [
+    {
+     "k": "Ukraine · Day 1,692",
+     "v": "Trump declares an [[energy ceasefire]]. Kyiv: news to us"
+    },
+    {
+     "k": "Iran war · Day 227",
+     "v": "Riyadh airport toll hits [[12 dead]]"
+    },
+    {
+     "k": "Gaza",
+     "v": "Truce turns 1: [[1,488 killed]] since, ministry says"
+    },
+    {
+     "k": "Sudan",
+     "v": "Burhan rules out talks. Army pushes in [[Kordofan]]"
+    }
+   ],
+   "sources": "Sources: Al Jazeera, Reuters, AFP, Times of Israel, Iran International, ISW, EA WorldView",
+   "map": {
+    "bbox": [
+     -5,
+     0,
+     72,
+     56
+    ],
+    "highlight": [
+     "Ukraine",
+     "Iran",
+     "Yemen",
+     "Sudan"
+    ],
+    "admin1": [
+     [
+      "Gaza Strip",
+      "Gaza Strip",
+      "#E5372B"
+     ]
+    ],
+    "labels": [
+     {
+      "lon": 31,
+      "lat": 52.5,
+      "text": "Ukraine",
+      "size": 22,
+      "color": "#F2F0EA"
+     },
+     {
+      "lon": 54,
+      "lat": 36.5,
+      "text": "Iran",
+      "size": 22,
+      "color": "#F2F0EA"
+     },
+     {
+      "lon": 30,
+      "lat": 20.5,
+      "text": "Sudan",
+      "size": 22,
+      "color": "#F2F0EA"
+     },
+     {
+      "lon": 48,
+      "lat": 12.2,
+      "text": "Yemen",
+      "size": 22,
+      "color": "#F2F0EA"
+     },
+     {
+      "lon": 28.5,
+      "lat": 32.3,
+      "text": "Gaza ▸",
+      "size": 22,
+      "color": "#F2F0EA"
+     }
+    ]
+   }
+  },
+  {
+   "type": "map",
+   "tag": "Ukraine · Day 1,692",
+   "map": {
+    "bbox": [
+     22,
+     44.2,
+     53,
+     53.2
+    ],
+    "highlight": [
+     "Ukraine"
+    ],
+    "admin1": [
+     [
+      "Ukraine",
+      "Donets'k",
+      "hatch"
+     ]
+    ],
+    "labels": [
+     {
+      "lon": 42.5,
+      "lat": 51.6,
+      "text": "Russia"
+     },
+     {
+      "lon": 28.6,
+      "lat": 48.9,
+      "text": "Ukraine"
+     }
+    ],
+    "points": [
+     {
+      "lon": 35.14,
+      "lat": 47.84,
+      "label": "Zaporizhzhia",
+      "sub": "16 killed (Oct 10)",
+      "kind": "strike",
+      "dx": -22,
+      "dy": 30
+     },
+     {
+      "lon": 36.23,
+      "lat": 49.99,
+      "label": "Kharkiv",
+      "sub": "Power plant hit, Kyiv says",
+      "kind": "strike",
+      "dy": -30
+     },
+     {
+      "lon": 37.8,
+      "lat": 49.0,
+      "label": "Lyman",
+      "sub": "Ukraine counteroffensive",
+      "kind": "info",
+      "dx": 22,
+      "dy": -8
+     },
+     {
+      "lon": 39.7,
+      "lat": 47.23,
+      "label": "Rostov Oblast",
+      "sub": "Oil & rail hit (ISW)",
+      "kind": "strike",
+      "dx": 20,
+      "dy": 40
+     }
+    ]
+   },
+   "headline": "A truce announced. [[Nobody told Kyiv.]]",
+   "bullets": [
+    "**Trump (Oct 11):** \"Effective immediately, there is an ENERGY CEASEFIRE... Both parties have agreed.\" The Kremlin hadn't responded.",
+    "Zelensky says it was **news to him** and claims Russian drones and a Kharkiv power-plant strike continued (unverified).",
+    "**Oct 9:** U.S. temporarily lifted sanctions on Russian fuel. **Oct 10:** Trump said \"it's time for Ukraine to get a new president.\"",
+    "Zelensky offers elections **if Putin agrees to a 60-day ceasefire.**"
+   ],
+   "sources": "Sources: Al Jazeera/Reuters (Oct 11), AFP, ISW (Oct 10)"
+  },
+  {
+   "type": "stats",
+   "tag": "Ukraine · by the numbers",
+   "headline": "The war in [[4 numbers]]",
+   "stats": [
+    {
+     "n": "16",
+     "l": "Killed in Zaporizhzhia on Oct 10; Zelensky says 5 glide bombs hit homes",
+     "s": "AFP (toll); Zelensky (cause)"
+    },
+    {
+     "n": "160",
+     "l": "Drones Russia launched overnight into Oct 10",
+     "s": "ISW",
+     "amber": true
+    },
+    {
+     "n": "176 km²",
+     "l": "Up to this much freed in Ukraine's Lyman push, \"Operation Vivaldi\"",
+     "s": "ISW via Euronews (Oct 9)",
+     "amber": true
+    },
+    {
+     "n": "60 days",
+     "l": "Ceasefire length Zelensky says would trigger Ukrainian elections",
+     "s": "Zelensky via Al Jazeera"
+    }
+   ],
+   "sources": "Sources: AFP, ISW, Euronews, Al Jazeera. Battlefield claims are not independently verified."
+  },
+  {
+   "type": "map",
+   "tag": "Iran war · Day 227",
+   "map": {
+    "bbox": [
+     34,
+     11,
+     62,
+     33.5
+    ],
+    "highlight": [
+     "Iran",
+     "Yemen"
+    ],
+    "labels": [
+     {
+      "lon": 54,
+      "lat": 32.3,
+      "text": "Iran"
+     },
+     {
+      "lon": 41.8,
+      "lat": 21.5,
+      "text": "Saudi Arabia"
+     },
+     {
+      "lon": 48.5,
+      "lat": 15.8,
+      "text": "Yemen"
+     }
+    ],
+    "points": [
+     {
+      "lon": 46.7,
+      "lat": 24.96,
+      "label": "Riyadh airport",
+      "sub": "At least 12 killed*",
+      "kind": "strike",
+      "dx": -22,
+      "dy": -34
+     },
+     {
+      "lon": 56.4,
+      "lat": 26.6,
+      "label": "Strait of Hormuz",
+      "sub": "Tanker ablaze",
+      "kind": "strike",
+      "dx": 22,
+      "dy": -36
+     },
+     {
+      "lon": 58.3,
+      "lat": 24.6,
+      "label": "Gulf of Oman",
+      "sub": "U.S. jet hits ship",
+      "kind": "strike",
+      "dx": 22,
+      "dy": 45
+     },
+     {
+      "lon": 44.2,
+      "lat": 15.35,
+      "label": "Sanaa",
+      "sub": "Coalition strikes",
+      "kind": "strike",
+      "dx": -22
+     }
+    ],
+    "arrows": [
+     [
+      [
+       44.2,
+       15.5
+      ],
+      [
+       46.6,
+       24.8
+      ]
+     ]
+    ]
+   },
+   "headline": "Riyadh airport toll [[climbs to 12]]",
+   "bullets": [
+    "Saudi aviation authority: **at least 12 killed, 309 hurt**, may not be final. An earlier tally said **3 dead**. No group claimed Saturday's attack.",
+    "Airport shut another 24h; Reuters/Cirium: **~60% of flights** cancelled. Trump: \"not acceptable.\"",
+    "**Hormuz:** Iran calls the U.S. reply \"insufficient\" and links security to ending the blockade. CENTCOM says a U.S. jet hit a ship running it.",
+    "Trump said strikes won't resume before the **Nov 3 midterms.**"
+   ],
+   "sources": "Sources: Times of Israel (Oct 11), Iran International (Oct 12), Reuters/Cirium, CENTCOM, EA WorldView. *Toll per Saudi civil aviation authority."
+  },
+  {
+   "type": "map",
+   "tag": "Gaza · Lebanon · West Bank",
+   "map": {
+    "bbox": [
+     33.2,
+     30.9,
+     37.2,
+     34.9
+    ],
+    "admin1": [
+     [
+      "Gaza Strip",
+      "Gaza Strip",
+      "#E5372B"
+     ],
+     [
+      "West Bank",
+      "West Bank",
+      "hatch"
+     ]
+    ],
+    "labels": [
+     {
+      "lon": 34.9,
+      "lat": 30.98,
+      "text": "Israel",
+      "size": 24
+     },
+     {
+      "lon": 36.3,
+      "lat": 32.2,
+      "text": "Jordan",
+      "size": 24
+     },
+     {
+      "lon": 35.9,
+      "lat": 34.4,
+      "text": "Lebanon",
+      "size": 24
+     }
+    ],
+    "points": [
+     {
+      "lon": 34.34,
+      "lat": 31.44,
+      "label": "Zawaida",
+      "sub": "Airstrike, Oct 11",
+      "kind": "strike",
+      "dx": -22,
+      "dy": 10
+     },
+     {
+      "lon": 35.8,
+      "lat": 33.82,
+      "label": "Dahr al-Baidar",
+      "sub": "Explosives truck seized",
+      "kind": "info",
+      "dx": -22,
+      "dy": 30
+     },
+     {
+      "lon": 35.4,
+      "lat": 31.85,
+      "label": "Mitzpe Yeriho",
+      "sub": "Riot probe",
+      "kind": "info",
+      "dx": 22,
+      "dy": 28
+     }
+    ]
+   },
+   "headline": "One year of truce. [[1,488 dead.]]",
+   "bullets": [
+    "Gaza Health Ministry: **1,488 killed, 5,281 wounded** since the Oct 11, 2025 truce. AP: **5 Israeli soldiers** killed in that time.",
+    "Israeli airstrike destroys a building in **Zawaida** (Oct 11). IDF says it killed a Nukhba commander; IDF also says troops shot a man crossing the ceasefire line.",
+    "**Lebanon:** PM says authorities seized a truck with hundreds of kg of explosives, incl. C-4.",
+    "**West Bank:** police suspect an Otzma Yehudit MK of assaulting officers at a settlement riot. He denies it."
+   ],
+   "sources": "Sources: Times of Israel (Oct 11), AP, Iran International (Oct 12). Ministry figures don't separate combatants from civilians."
+  },
+  {
+   "type": "map",
+   "tag": "Sudan · This week",
+   "map": {
+    "bbox": [
+     21.5,
+     8.5,
+     38.5,
+     20
+    ],
+    "highlight": [
+     "Sudan"
+    ],
+    "admin1": [
+     [
+      "Sudan",
+      "North Kordufan",
+      "hatch"
+     ],
+     [
+      "Sudan",
+      "Blue Nile",
+      "hatch"
+     ]
+    ],
+    "labels": [
+     {
+      "lon": 30,
+      "lat": 18.6,
+      "text": "Sudan"
+     },
+     {
+      "lon": 30,
+      "lat": 8.9,
+      "text": "South Sudan",
+      "size": 24
+     }
+    ],
+    "points": [
+     {
+      "lon": 28.43,
+      "lat": 12.7,
+      "label": "En Nahud",
+      "sub": "Army advancing; RSF massing",
+      "kind": "info",
+      "dx": -22,
+      "dy": 24
+     },
+     {
+      "lon": 30.22,
+      "lat": 13.18,
+      "label": "N. Kordofan",
+      "sub": "Al-Mazroub retaken",
+      "kind": "info",
+      "dy": -30
+     },
+     {
+      "lon": 34.0,
+      "lat": 11.5,
+      "label": "Blue Nile",
+      "sub": "5,500+ displaced",
+      "kind": "strike",
+      "dy": 28
+     }
+    ]
+   },
+   "headline": "No talks. [[Army vows every inch.]]",
+   "bullets": [
+    "**Burhan (Oct 6):** rejects negotiations, vows to retake \"every inch\" of RSF territory (Sudan News Agency).",
+    "Army took **Al-Mazroub**, N. Kordofan, a Darfur–Kordofan supply link (Sudan Tribune).",
+    "RSF massing in **West Kordofan** as army nears En Nahud. A local group claims **10 civilians** killed in an RSF attack.",
+    "**Blue Nile:** IOM says 5,500+ displaced in three days."
+   ],
+   "sources": "Sources: Al Jazeera (Oct 7), Sudan Tribune, IOM, Dar Hamar Emergency Committee (claim)"
+  },
+  {
+   "type": "watch",
+   "tag": "What to watch",
+   "headline": "This [[week]]",
+   "bullets": [
+    "Does Moscow **confirm the energy ceasefire**, and does it hold?",
+    "Riyadh airport: **final toll** and whether the U.S. joins strikes on the Houthis.",
+    "Washington's reply on **Hormuz** and the blockade; Trump's pre-**Nov 3** pause.",
+    "Army push on **En Nahud**; any move toward Sudan talks."
+   ],
+   "cta": "Follow for the war brief every morning",
+   "cta_sub": "Turn on notifications · Share with someone who should know",
+   "sources": "WARDESK compiles reporting from named outlets. Casualty figures are as reported by the cited sources."
+  }
+ ],
+ "caption_instagram": "4 wars. 24 hours. Here's what changed. ⬇️\n\n🇺🇦 UKRAINE (Day 1,692) — Trump announced an \"energy ceasefire,\" saying both sides agreed. Zelensky says it was news to him and claims Russian strikes continued, incl. on a Kharkiv power plant (unverified). The Kremlin hadn't responded. Zelensky offers elections if Putin accepts a 60-day ceasefire.\n\n🇮🇷 IRAN WAR (Day 227) — Toll from the Houthi-linked Riyadh airport attacks: at least 12 killed, 309 wounded per Saudi aviation authority (earlier tally: 3; may not be final). Iran calls the U.S. Hormuz reply \"insufficient.\"\n\n🇵🇸 GAZA — One year into the truce: 1,488 killed since, per Gaza's Health Ministry; AP counts 5 Israeli soldiers killed.\n\n🇸🇩 SUDAN — Army chief Burhan rules out talks and vows to retake \"every inch.\" Army took Al-Mazroub in North Kordofan.\n\nSwipe for maps + numbers ➡️\nWhich front are you watching most? Comment below 👇\n\nSources: Al Jazeera, Reuters, AFP, AP, Times of Israel, Iran International, ISW, Sudan Tribune, IOM. Figures are as reported by those outlets.\n\nFollow @wardesk_daily for the war brief every morning.\n\n#worldnews #ukraine #russia #iran #gaza #sudan #middleeast #geopolitics #breakingnews #news #war #houthis #saudiarabia #straitofhormuz #wardesk",
+ "caption_facebook": "WORLD AT WAR: Monday, Oct 12, 2026\n4 fronts, 24 hours. Here's what changed.\n\n🇺🇦 UKRAINE (Day 1,692)\n• Trump announced on Oct 11 an \"energy ceasefire\" between Russia and Ukraine, writing \"Both parties have agreed.\" The Kremlin had not responded.\n• Zelensky said it was news to him and claimed Russian drones, glide bombs and a Kharkiv power-plant strike continued (unverified).\n• The U.S. temporarily lifted sanctions on Russian fuel on Oct 9. On Oct 10 Trump said \"it's time for Ukraine to get a new president.\"\n• A Russian attack in Zaporizhzhia killed 16 on Oct 10 (AFP). Zelensky offers elections if Putin agrees to a 60-day ceasefire.\n\n🇮🇷 IRAN WAR (Day 227)\n• Saudi Arabia's civil aviation authority says at least 12 were killed and 309 wounded in attacks on Riyadh's airport; an earlier tally said 3 dead, and figures may not be final. No group immediately claimed Saturday's attack; Trump called it \"not acceptable.\"\n• Iran called the U.S. reply on reopening Hormuz \"insufficient.\" CENTCOM says a U.S. jet struck a ship trying to run the blockade; the crew was unharmed.\n• Trump has said strikes won't resume before the Nov 3 midterms.\n\n🇵🇸 GAZA / LEBANON / WEST BANK\n• Gaza's Health Ministry says 1,488 killed and 5,281 wounded since the truce began a year ago (it does not separate combatants from civilians). AP says 5 Israeli soldiers were killed in that period.\n• Lebanon's PM says authorities seized a truck carrying hundreds of kg of explosives.\n\n🇸🇩 SUDAN\n• Army chief Burhan rejected negotiations on Oct 6 and vowed to retake all RSF-held territory.\n• The army took Al-Mazroub in North Kordofan (Sudan Tribune). IOM says 5,500+ were displaced in Blue Nile in three days.\n\nWHAT TO WATCH: Will Moscow confirm the energy ceasefire? The final Riyadh toll. Washington's Hormuz reply.\n\nSources: Al Jazeera, Reuters, AFP, AP, Times of Israel, Iran International, ISW, Sudan Tribune, IOM. Figures are as reported by those outlets.\n\n👉 Follow WARDESK for the war brief every morning."
+}
