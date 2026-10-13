@@ -1,0 +1,448 @@
+{
+ "date": "2026-10-13",
+ "date_label": "Tue · Oct 13, 2026",
+ "slides": [
+  {
+   "type": "cover",
+   "kicker": "Daily war brief",
+   "title": "World<br>at [[war]]",
+   "fronts": [
+    {
+     "k": "Ukraine · Day 1,693",
+     "v": "Truce in name only. Zaporizhzhia toll hits [[23]]"
+    },
+    {
+     "k": "Iran war · Day 228",
+     "v": "Houthi attacks on Saudi airports: [[20 dead]]"
+    },
+    {
+     "k": "Gaza",
+     "v": "Truce \"in name only,\" [[100+ groups]] say"
+    },
+    {
+     "k": "Sudan",
+     "v": "Drone strike kills [[30]] in Blue Nile, governor says"
+    }
+   ],
+   "sources": "Sources: Al Jazeera, Reuters, AFP, AP, ABC, CBS, Kyiv Post, RBC-Ukraine, Daily Sabah",
+   "map": {
+    "bbox": [
+     -5,
+     0,
+     72,
+     56
+    ],
+    "highlight": [
+     "Ukraine",
+     "Iran",
+     "Yemen",
+     "Sudan"
+    ],
+    "admin1": [
+     [
+      "Gaza Strip",
+      "Gaza Strip",
+      "#E5372B"
+     ]
+    ],
+    "labels": [
+     {
+      "lon": 31,
+      "lat": 52.5,
+      "text": "Ukraine",
+      "size": 22,
+      "color": "#F2F0EA"
+     },
+     {
+      "lon": 54,
+      "lat": 36.5,
+      "text": "Iran",
+      "size": 22,
+      "color": "#F2F0EA"
+     },
+     {
+      "lon": 30,
+      "lat": 20.5,
+      "text": "Sudan",
+      "size": 22,
+      "color": "#F2F0EA"
+     },
+     {
+      "lon": 48,
+      "lat": 12.2,
+      "text": "Yemen",
+      "size": 22,
+      "color": "#F2F0EA"
+     },
+     {
+      "lon": 28.5,
+      "lat": 32.3,
+      "text": "Gaza ▸",
+      "size": 22,
+      "color": "#F2F0EA"
+     }
+    ]
+   }
+  },
+  {
+   "type": "map",
+   "tag": "Ukraine · Day 1,693",
+   "map": {
+    "bbox": [
+     22,
+     44.2,
+     53,
+     53.2
+    ],
+    "highlight": [
+     "Ukraine"
+    ],
+    "admin1": [
+     [
+      "Ukraine",
+      "Donets'k",
+      "hatch"
+     ]
+    ],
+    "labels": [
+     {
+      "lon": 42.5,
+      "lat": 51.6,
+      "text": "Russia"
+     },
+     {
+      "lon": 28.6,
+      "lat": 48.9,
+      "text": "Ukraine"
+     }
+    ],
+    "points": [
+     {
+      "lon": 35.14,
+      "lat": 47.84,
+      "label": "Zaporizhzhia",
+      "sub": "23 killed (Oct 10)",
+      "kind": "strike",
+      "dx": -22,
+      "dy": 30
+     },
+     {
+      "lon": 36.23,
+      "lat": 49.99,
+      "label": "Kharkiv",
+      "sub": "Apartment block hit (Oct 13)",
+      "kind": "strike",
+      "dy": -30
+     },
+     {
+      "lon": 26.25,
+      "lat": 50.62,
+      "label": "Rivne",
+      "sub": "University hit, 20 hurt",
+      "kind": "strike",
+      "dx": 22,
+      "dy": -8
+     },
+     {
+      "lon": 39.7,
+      "lat": 47.23,
+      "label": "Rostov",
+      "sub": "Oil terminal burns (claim)",
+      "kind": "strike",
+      "dx": 20,
+      "dy": 40
+     }
+    ]
+   },
+   "headline": "Energy truce? [[Strikes go on.]]",
+   "bullets": [
+    "**Overnight Oct 12-13:** Russia fired 100+ drones and 5 ballistic missiles (RBC-Ukraine). A Kharkiv apartment block was hit; **20 hurt** at a Rivne university.",
+    "**Zaporizhzhia (Oct 10):** first reports said 16 dead; Zelensky later said **23, incl. 4 children** (Kyiv Post). Figures differ.",
+    "**Zelensky:** Kyiv will stop refinery strikes if Moscow stops hitting the grid. The Kremlin hasn't confirmed Trump's truce.",
+    "Rostov oil terminal reported burning after a Ukrainian strike (unverified)."
+   ],
+   "sources": "Sources: Al Jazeera/Reuters (Oct 11), Kyiv Post (Oct 11), RBC-Ukraine (Oct 13, headlines). Claims not independently verified."
+  },
+  {
+   "type": "stats",
+   "tag": "Ukraine · by the numbers",
+   "headline": "The war in [[4 numbers]]",
+   "stats": [
+    {
+     "n": "23",
+     "l": "Killed in Zaporizhzhia glide-bomb strike, per Zelensky (first reports: 16)",
+     "s": "Kyiv Post; Al Jazeera"
+    },
+    {
+     "n": "1,640+",
+     "l": "Drones Russia launched in a week, per Zelensky",
+     "s": "Zelensky via Kyiv Post",
+     "amber": true
+    },
+    {
+     "n": "1,450",
+     "l": "Glide bombs in the same week, per Zelensky",
+     "s": "Zelensky via Kyiv Post",
+     "amber": true
+    },
+    {
+     "n": "100+",
+     "l": "Drones plus 5 ballistic missiles overnight Oct 12-13",
+     "s": "RBC-Ukraine"
+    }
+   ],
+   "sources": "Sources: Kyiv Post, Al Jazeera, RBC-Ukraine. Figures are Ukrainian claims, not independently verified."
+  },
+  {
+   "type": "map",
+   "tag": "Iran war · Day 228",
+   "map": {
+    "bbox": [
+     34,
+     11,
+     62,
+     33.5
+    ],
+    "highlight": [
+     "Iran",
+     "Yemen"
+    ],
+    "labels": [
+     {
+      "lon": 54,
+      "lat": 32.3,
+      "text": "Iran"
+     },
+     {
+      "lon": 41.8,
+      "lat": 21.5,
+      "text": "Saudi Arabia"
+     },
+     {
+      "lon": 48.5,
+      "lat": 15.8,
+      "text": "Yemen"
+     }
+    ],
+    "points": [
+     {
+      "lon": 46.7,
+      "lat": 24.96,
+      "label": "Riyadh airport",
+      "sub": "13 killed Oct 10 (AP)",
+      "kind": "strike",
+      "dx": -22,
+      "dy": -34
+     },
+     {
+      "lon": 56.4,
+      "lat": 26.6,
+      "label": "Strait of Hormuz",
+      "sub": "IRGC claims 3 hit",
+      "kind": "strike",
+      "dx": -22,
+      "dy": -36
+     },
+     {
+      "lon": 44.2,
+      "lat": 15.35,
+      "label": "Sanaa",
+      "sub": "1 dead (Houthis)",
+      "kind": "strike",
+      "dx": 22,
+      "dy": 12
+     },
+     {
+      "lon": 42.6,
+      "lat": 15.7,
+      "label": "Kamaran",
+      "sub": "Houthis claim Saudi strike",
+      "kind": "info",
+      "dx": -22,
+      "dy": -30
+     }
+    ],
+    "arrows": [
+     [
+      [
+       44.2,
+       15.5
+      ],
+      [
+       46.6,
+       24.8
+      ]
+     ]
+    ]
+   },
+   "headline": "Saudi airports: [[20 dead in a week]]",
+   "bullets": [
+    "Saudi aviation authority (via ABC): **20 killed, 356 hurt** in Houthi attacks Oct 6-11. AP: **13 dead** in the Oct 10 Riyadh strike, incl. 1 American.",
+    "Oct 12: coalition says it intercepted a Houthi missile aimed at Riyadh. Trump says U.S. \"may\" join Saudi strikes. Houthis threaten a \"swift and painful\" reply.",
+    "**Hormuz:** IRGC claims it hit 3 tankers (unverified; UKMTO reported no attacks Monday). CENTCOM claims 135 ships turned back since Jul 14.",
+    "Brent crude topped **$105** Monday, a two-week high (CBS/AP)."
+   ],
+   "sources": "Sources: ABC (Oct 12), CBS/AP, AFP, CENTCOM and IRGC (claims). Houthi/Saudi strike claims unverified."
+  },
+  {
+   "type": "map",
+   "tag": "Gaza · West Bank",
+   "map": {
+    "bbox": [
+     33.2,
+     30.9,
+     37.2,
+     34.9
+    ],
+    "admin1": [
+     [
+      "Gaza Strip",
+      "Gaza Strip",
+      "#E5372B"
+     ],
+     [
+      "West Bank",
+      "West Bank",
+      "hatch"
+     ]
+    ],
+    "labels": [
+     {
+      "lon": 34.9,
+      "lat": 30.98,
+      "text": "Israel",
+      "size": 24
+     },
+     {
+      "lon": 36.3,
+      "lat": 32.2,
+      "text": "Jordan",
+      "size": 24
+     },
+     {
+      "lon": 35.9,
+      "lat": 34.4,
+      "text": "Lebanon",
+      "size": 24
+     }
+    ],
+    "points": [
+     {
+      "lon": 34.47,
+      "lat": 31.52,
+      "label": "Gaza City",
+      "sub": "8 killed Oct 10",
+      "kind": "strike",
+      "dx": -22,
+      "dy": -40
+     },
+     {
+      "lon": 34.3,
+      "lat": 31.35,
+      "label": "Khan Younis",
+      "sub": "2+ killed Oct 12",
+      "kind": "strike",
+      "dx": -22,
+      "dy": 0
+     },
+     {
+      "lon": 35.3,
+      "lat": 32.0,
+      "label": "West Bank",
+      "sub": "12 settler attacks Oct 10",
+      "kind": "info",
+      "dx": 22,
+      "dy": 28
+     }
+    ]
+   },
+   "headline": "Truce year two. [[Still killing.]]",
+   "bullets": [
+    "Gaza Health Ministry: **1,488 killed, 5,281 hurt** since the Oct 2025 truce (as of Oct 11). War total: 74,370+ (Oct 10 figure).",
+    "**Oct 10:** at least 8 killed, incl. 8-year-old Shahd al-Najjar in Gaza City (Al Jazeera). Monday: 2+ killed in the south, health officials say (Daily Sabah).",
+    "**100+ aid and rights groups** say the ceasefire \"exists in name only.\"",
+    "**West Bank:** a Palestinian commission recorded 12 settler attacks on Oct 10."
+   ],
+   "sources": "Sources: Al Jazeera (Oct 10), Daily Sabah (Oct 12-13). Ministry figures don't separate combatants from civilians."
+  },
+  {
+   "type": "map",
+   "tag": "Sudan · This week",
+   "map": {
+    "bbox": [
+     21.5,
+     8.5,
+     38.5,
+     20
+    ],
+    "highlight": [
+     "Sudan"
+    ],
+    "admin1": [
+     [
+      "Sudan",
+      "Blue Nile",
+      "hatch"
+     ]
+    ],
+    "labels": [
+     {
+      "lon": 30,
+      "lat": 18.6,
+      "text": "Sudan"
+     },
+     {
+      "lon": 30,
+      "lat": 8.9,
+      "text": "South Sudan",
+      "size": 24
+     }
+    ],
+    "points": [
+     {
+      "lon": 34.2,
+      "lat": 11.6,
+      "label": "Wad al-Mahi",
+      "sub": "30 killed, governor says",
+      "kind": "strike",
+      "dx": -22,
+      "dy": 28
+     },
+     {
+      "lon": 34.36,
+      "lat": 11.79,
+      "label": "Ed Damazin",
+      "sub": "4 killed Oct 7 (Reuters)",
+      "kind": "strike",
+      "dx": 22,
+      "dy": -30
+     }
+    ]
+   },
+   "headline": "Drones over Blue Nile. [[30 dead.]]",
+   "bullets": [
+    "**Oct 9:** drone strike near Damazin kills **30, incl. 26 women and 4 children**, per Blue Nile's governor, who blames the RSF. No RSF response reported.",
+    "Governor says the drone launched from **inside Ethiopia**. Ethiopia denies harboring RSF bases.",
+    "**Oct 7:** suspected RSF drones killed 4 civilians in Ed Damazin (Reuters).",
+    "UN: nearly **100,000 displaced** in Blue Nile this year. Aid workers estimate 200,000+ dead in the war."
+   ],
+   "sources": "Sources: Al Jazeera/AFP (Oct 9), Reuters (Oct 7), UN. Governor's attribution is a claim."
+  },
+  {
+   "type": "watch",
+   "tag": "What to watch",
+   "headline": "This [[week]]",
+   "bullets": [
+    "Does Moscow **confirm the energy truce**, and do grid strikes stop?",
+    "Does the U.S. **join Saudi strikes on the Houthis**? Riyadh airport still shut.",
+    "Washington's reply on **Hormuz**; Iran says it is still reviewing.",
+    "Blue Nile: more drone strikes, and the Ethiopia dispute."
+   ],
+   "cta": "Follow for the war brief every morning",
+   "cta_sub": "Turn on notifications · Share with someone who should know",
+   "sources": "WARDESK compiles reporting from named outlets. Casualty figures are as reported by the cited sources."
+  }
+ ],
+ "caption_instagram": "4 wars. 24 hours. Here's what changed. ⬇️\n\n🇺🇦 UKRAINE (Day 1,693) — Trump's \"energy ceasefire\" is not holding, Kyiv says. Overnight Russia fired 100+ drones and 5 ballistic missiles (RBC-Ukraine); a Kharkiv apartment block was hit. Zelensky puts the Zaporizhzhia toll at 23 incl. 4 children (first reports: 16). Kremlin hasn't confirmed the truce.\n\n🇮🇷 IRAN WAR (Day 228) — Saudi aviation authority: 20 killed, 356 hurt in Houthi attacks on Saudi airports Oct 6-11. AP: 13 died in the Oct 10 Riyadh strike. Trump says the U.S. \"may\" join Saudi strikes. Brent topped $105.\n\n🇵🇸 GAZA — At least 8 killed on the truce anniversary (Al Jazeera). Ministry: 1,488 killed since the truce. 100+ groups say it exists \"in name only.\"\n\n🇸🇩 SUDAN — Drone strike kills 30 in Blue Nile, per the governor, who blames the RSF and says the drone came from Ethiopia. Ethiopia denies it.\n\nSwipe for maps + numbers ➡️\nWhich front are you watching most? Comment below 👇\n\nSources: Al Jazeera, Reuters, AFP, AP, ABC, CBS, Kyiv Post, RBC-Ukraine, Daily Sabah. Figures are as reported by those outlets; warring-party claims are unverified.\n\nFollow @wardesk_daily for the war brief every morning.\n\n#worldnews #ukraine #russia #iran #gaza #sudan #middleeast #geopolitics #breakingnews #news #war #houthis #saudiarabia #straitofhormuz #wardesk",
+ "caption_facebook": "WORLD AT WAR: Tuesday, Oct 13, 2026\n4 fronts, 24 hours. Here's what changed.\n\n🇺🇦 UKRAINE (Day 1,693)\n• Trump announced an \"energy ceasefire\" on Oct 11. Zelensky says Russian strikes on energy sites continued; the Kremlin has not confirmed the truce.\n• Overnight Oct 12-13 Russia launched 100+ drones and 5 ballistic missiles, RBC-Ukraine reports. A Kharkiv apartment block was partly destroyed and 20 were hurt at a Rivne university (RBC-Ukraine headlines; casualty details developing).\n• Zaporizhzhia (Oct 10): first reports said 16 dead; Zelensky later put it at 23, including 4 children.\n• Zelensky says Ukraine will stop hitting Russian refineries if Russia stops hitting the grid.\n\n🇮🇷 IRAN WAR (Day 228)\n• Saudi aviation authority (via ABC): 20 killed and 356 hurt in Houthi attacks on Saudi airports Oct 6-11. AP counts 13 dead, incl. one American, in the Oct 10 Riyadh strike.\n• Trump says the U.S. \"may\" join Saudi strikes on the Houthis; the Houthis threaten a \"swift and painful\" response.\n• Iran's IRGC claims it hit three tankers in Hormuz (unverified; UKMTO reported no attacks Monday). Iran says it is still reviewing the U.S. reply to its ceasefire proposal.\n• Brent crude topped $105.\n\n🇵🇸 GAZA / WEST BANK\n• Gaza's Health Ministry: 1,488 killed and 5,281 wounded since the truce began a year ago (it does not separate combatants from civilians).\n• At least 8 were killed on Oct 10, including an 8-year-old girl (Al Jazeera). 100+ aid and rights groups say the truce exists \"in name only.\"\n\n🇸🇩 SUDAN\n• A drone strike near Damazin, Blue Nile, killed 30 on Oct 9, the governor says, blaming the RSF and saying the drone came from Ethiopia. Ethiopia denies harboring RSF bases.\n\nWHAT TO WATCH: Does Moscow confirm the truce? Does the U.S. join strikes on the Houthis? Washington's Hormuz reply.\n\nSources: Al Jazeera, Reuters, AFP, AP, ABC, CBS, Kyiv Post, RBC-Ukraine, Daily Sabah. Figures are as reported by those outlets.\n\n👉 Follow WARDESK for the war brief every morning."
+}
