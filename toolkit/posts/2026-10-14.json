@@ -1,0 +1,457 @@
+{
+ "date": "2026-10-14",
+ "date_label": "Wed · Oct 14, 2026",
+ "slides": [
+  {
+   "type": "cover",
+   "kicker": "Daily war brief",
+   "title": "World<br>at [[war]]",
+   "fronts": [
+    {
+     "k": "Ukraine · Day 1,694",
+     "v": "Kyiv hit by ballistic missiles [[2 days running]]"
+    },
+    {
+     "k": "Iran war · Day 229",
+     "v": "Houthis vow more strikes on [[Saudi airports]]"
+    },
+    {
+     "k": "Gaza",
+     "v": "Truce toll passes [[1,490]], ministry says"
+    },
+    {
+     "k": "Sudan",
+     "v": "Burhan: [[no talks]] with the RSF"
+    }
+   ],
+   "sources": "Sources: Al Jazeera, France 24, AFP, Times of Israel, Daily Trust/AllAfrica",
+   "map": {
+    "bbox": [
+     -5,
+     0,
+     72,
+     56
+    ],
+    "highlight": [
+     "Ukraine",
+     "Iran",
+     "Yemen",
+     "Sudan"
+    ],
+    "admin1": [
+     [
+      "Gaza Strip",
+      "Gaza Strip",
+      "#E5372B"
+     ]
+    ],
+    "labels": [
+     {
+      "lon": 31,
+      "lat": 52.5,
+      "text": "Ukraine",
+      "size": 22,
+      "color": "#F2F0EA"
+     },
+     {
+      "lon": 54,
+      "lat": 36.5,
+      "text": "Iran",
+      "size": 22,
+      "color": "#F2F0EA"
+     },
+     {
+      "lon": 30,
+      "lat": 20.5,
+      "text": "Sudan",
+      "size": 22,
+      "color": "#F2F0EA"
+     },
+     {
+      "lon": 48,
+      "lat": 12.2,
+      "text": "Yemen",
+      "size": 22,
+      "color": "#F2F0EA"
+     },
+     {
+      "lon": 28.5,
+      "lat": 32.3,
+      "text": "Gaza ▸",
+      "size": 22,
+      "color": "#F2F0EA"
+     }
+    ]
+   }
+  },
+  {
+   "type": "map",
+   "tag": "Ukraine · Day 1,694",
+   "map": {
+    "bbox": [
+     22,
+     43.2,
+     53,
+     53.2
+    ],
+    "highlight": [
+     "Ukraine"
+    ],
+    "admin1": [
+     [
+      "Ukraine",
+      "Donets'k",
+      "hatch"
+     ]
+    ],
+    "labels": [
+     {
+      "lon": 42.5,
+      "lat": 51.6,
+      "text": "Russia"
+     },
+     {
+      "lon": 28.6,
+      "lat": 49.2,
+      "text": "Ukraine"
+     }
+    ],
+    "points": [
+     {
+      "lon": 30.52,
+      "lat": 50.45,
+      "label": "Kyiv",
+      "sub": "Ballistic missiles, 2nd day",
+      "kind": "strike",
+      "dx": 22,
+      "dy": -30
+     },
+     {
+      "lon": 28.6,
+      "lat": 43.6,
+      "label": "Off Bulgaria",
+      "sub": "Ship sunk, 11 missing",
+      "kind": "strike",
+      "dx": 22,
+      "dy": -30
+     }
+    ]
+   },
+   "headline": "Truce? [[Missiles keep coming.]]",
+   "bullets": [
+    "**Oct 13-14:** Russian ballistic missiles hit Kyiv a second day, with no warning from Western partners, Zelensky said (Al Jazeera). No toll reported yet.",
+    "**Truce claim:** Trump says both sides agreed to an energy ceasefire. Zelensky says Russia hit **6+ energy sites**, wounding **33**. Lavrov rejects any pause.",
+    "**Black Sea (Oct 13):** a drone sank the cargo ship HS Dignity off Bulgaria; **11 crew missing**. Sofia names no culprit."
+   ],
+   "sources": "Sources: Al Jazeera (Oct 13-14). Zelensky's figures are Ukrainian claims, not independently verified."
+  },
+  {
+   "type": "stats",
+   "tag": "Ukraine · by the numbers",
+   "headline": "Ukraine in [[4 numbers]]",
+   "stats": [
+    {
+     "n": "33",
+     "l": "Wounded by Russian strikes on Monday, per Zelensky",
+     "s": "Zelensky via Al Jazeera",
+     "amber": true
+    },
+    {
+     "n": "6+",
+     "l": "Ukrainian energy sites hit after truce was declared, per Zelensky",
+     "s": "Zelensky via Al Jazeera",
+     "amber": true
+    },
+    {
+     "n": "11",
+     "l": "Crew missing after HS Dignity sank off Bulgaria",
+     "s": "Bulgarian officials via Al Jazeera"
+    },
+    {
+     "n": "1,569",
+     "l": "People and firms in the EU's new sanctions package",
+     "s": "Al Jazeera"
+    }
+   ],
+   "sources": "Sources: Al Jazeera. Zelensky figures are Ukrainian claims, not independently verified."
+  },
+  {
+   "type": "map",
+   "tag": "Iran war · Day 229",
+   "map": {
+    "bbox": [
+     38,
+     11,
+     62,
+     33.5
+    ],
+    "highlight": [
+     "Iran",
+     "Yemen"
+    ],
+    "labels": [
+     {
+      "lon": 54,
+      "lat": 32.3,
+      "text": "Iran"
+     },
+     {
+      "lon": 41.8,
+      "lat": 21.5,
+      "text": "Saudi Arabia"
+     }
+    ],
+    "points": [
+     {
+      "lon": 46.7,
+      "lat": 24.96,
+      "label": "Riyadh",
+      "sub": "Missile intercepted",
+      "kind": "strike",
+      "dx": -22,
+      "dy": -30
+     },
+     {
+      "lon": 50.1,
+      "lat": 26.3,
+      "label": "Dhahran",
+      "sub": "Aramco (Houthi claim)",
+      "kind": "strike",
+      "dx": -22,
+      "dy": -62
+     },
+     {
+      "lon": 56.4,
+      "lat": 26.6,
+      "label": "Hormuz",
+      "sub": "Ship sunk Oct 13",
+      "kind": "strike",
+      "dx": 22,
+      "dy": 30
+     },
+     {
+      "lon": 44.2,
+      "lat": 15.35,
+      "label": "Yemen",
+      "sub": "Houthi launch area",
+      "kind": "info",
+      "dx": 22,
+      "dy": 12
+     }
+    ],
+    "arrows": [
+     [
+      [
+       44.2,
+       15.5
+      ],
+      [
+       46.6,
+       24.8
+      ]
+     ],
+     [
+      [
+       44.6,
+       15.6
+      ],
+      [
+       49.9,
+       26.1
+      ]
+     ]
+    ]
+   },
+   "headline": "Houthis: [[more Saudi strikes coming]]",
+   "bullets": [
+    "**Oct 14:** Houthis claim missile and drone hits on Riyadh's airport and Aramco sites and vow more. Coalition says it downed a missile aimed at Riyadh (France 24, AFP).",
+    "A Saudi report cites an Aramco building hit, **4 wounded**. Foreign airlines have halted Riyadh flights.",
+    "**Hormuz:** IRGC says a container ship hit a **mine**; UKMTO reports an \"unknown projectile.\" Accounts differ."
+   ],
+   "sources": "Sources: France 24/AFP, Al Jazeera (Oct 14), UKMTO, IRGC (claim). Strike claims unverified; earlier Saudi tolls differ by outlet."
+  },
+  {
+   "type": "map",
+   "tag": "Gaza · West Bank · Lebanon",
+   "map": {
+    "bbox": [
+     33.2,
+     30.9,
+     37.2,
+     34.9
+    ],
+    "admin1": [
+     [
+      "Gaza Strip",
+      "Gaza Strip",
+      "#E5372B"
+     ],
+     [
+      "West Bank",
+      "West Bank",
+      "hatch"
+     ]
+    ],
+    "labels": [
+     {
+      "lon": 34.9,
+      "lat": 30.98,
+      "text": "Israel",
+      "size": 24
+     },
+     {
+      "lon": 36.3,
+      "lat": 32.2,
+      "text": "Jordan",
+      "size": 24
+     },
+     {
+      "lon": 35.9,
+      "lat": 34.4,
+      "text": "Lebanon",
+      "size": 24
+     }
+    ],
+    "points": [
+     {
+      "lon": 34.47,
+      "lat": 31.52,
+      "label": "Gaza City",
+      "sub": "1 killed in vehicle strike",
+      "kind": "strike",
+      "dx": -22,
+      "dy": -40
+     },
+     {
+      "lon": 35.2,
+      "lat": 31.9,
+      "label": "Ramallah",
+      "sub": "2 journalists hurt",
+      "kind": "strike",
+      "dx": 22,
+      "dy": 2
+     },
+     {
+      "lon": 35.29,
+      "lat": 32.12,
+      "label": "Talfit",
+      "sub": "Settler attack, 3 hurt",
+      "kind": "info",
+      "dx": -22,
+      "dy": -26
+     },
+     {
+      "lon": 35.52,
+      "lat": 33.1,
+      "label": "Yiftah",
+      "sub": "Blast on school trip",
+      "kind": "strike",
+      "dx": 22,
+      "dy": 0
+     }
+    ]
+   },
+   "headline": "Truce year two. [[Still counting.]]",
+   "bullets": [
+    "Gaza Health Ministry: **1,493 killed** since the Oct 2025 truce (as of Oct 12), up from 1,460 a week earlier. War total: **74,382** (Al Jazeera).",
+    "**Oct 13:** Israeli strike on a vehicle in Gaza City kills 1, emergency services say. IDF claims it killed 5 operatives in violation of the truce.",
+    "**West Bank:** 2 journalists wounded in Ramallah (Wafa); 3 hurt in a settler attack in Talfit (Palestinian media).",
+    "**Lebanon border (Oct 12):** unexploded Hezbollah ordnance, per IDF, kills a teen on an Israeli school hike."
+   ],
+   "sources": "Sources: Al Jazeera (Oct 13-14), Times of Israel (Oct 13). Ministry figures don't separate combatants from civilians."
+  },
+  {
+   "type": "map",
+   "tag": "Sudan · This week",
+   "map": {
+    "bbox": [
+     21.5,
+     8.5,
+     38.5,
+     20
+    ],
+    "highlight": [
+     "Sudan"
+    ],
+    "admin1": [
+     [
+      "Sudan",
+      "Blue Nile",
+      "hatch"
+     ],
+     [
+      "Sudan",
+      "West Kordofan",
+      "hatch"
+     ]
+    ],
+    "labels": [
+     {
+      "lon": 30,
+      "lat": 18.6,
+      "text": "Sudan"
+     },
+     {
+      "lon": 30,
+      "lat": 8.9,
+      "text": "South Sudan",
+      "size": 24
+     }
+    ],
+    "points": [
+     {
+      "lon": 22.45,
+      "lat": 13.45,
+      "label": "Bir Saliba",
+      "sub": "Joint Force claims recapture",
+      "kind": "info",
+      "dx": 22,
+      "dy": -30
+     },
+     {
+      "lon": 28.0,
+      "lat": 11.8,
+      "label": "West Kordofan",
+      "sub": "10+ civilians killed (Oct 7)",
+      "kind": "strike",
+      "dx": -22,
+      "dy": 30
+     },
+     {
+      "lon": 34.3,
+      "lat": 11.7,
+      "label": "Blue Nile",
+      "sub": "5,500 displaced (Oct 7)",
+      "kind": "info",
+      "dx": -22,
+      "dy": 34
+     }
+    ]
+   },
+   "headline": "Army: [[no talks.]] Fighting spreads.",
+   "bullets": [
+    "**Oct 12:** army chief al-Burhan rules out negotiations with the RSF and vows to keep fighting in Darfur, Kordofan and Blue Nile (Daily Trust).",
+    "**Near El Geneina:** the army-allied Joint Force says it retook Bir Saliba and destroyed 7 RSF vehicles. Unverified claim.",
+    "**Oct 7 (Al Jazeera):** at least 10 civilians killed in West Kordofan; 5,500 displaced in Blue Nile as clashes widened.",
+    "UN agency: nearly **100,000 displaced** in Blue Nile since January. Mediation has repeatedly failed."
+   ],
+   "sources": "Sources: Daily Trust/AllAfrica (Oct 12), Al Jazeera (Oct 7), UN. Battlefield claims come from one side and are unverified."
+  },
+  {
+   "type": "watch",
+   "tag": "What to watch",
+   "headline": "This [[week]]",
+   "bullets": [
+    "Casualty toll from the **Kyiv missile strikes**, and whether the energy truce is confirmed by Moscow.",
+    "Black Sea: who sank **HS Dignity**; Bulgaria summons Russia's ambassador.",
+    "Houthi follow-through on **Saudi airports**; Trump says a decision on Iran is coming \"very soon.\"",
+    "Gaza truce toll and West Bank olive-harvest violence; Israel votes Oct 27."
+   ],
+   "cta": "Follow for the war brief every morning",
+   "cta_sub": "Turn on notifications · Share with someone who should know",
+   "sources": "WARDESK compiles reporting from named outlets. Casualty figures are as reported by the cited sources."
+  }
+ ],
+ "caption_instagram": "4 wars. 24 hours. Here's what changed. ⬇️\n\n🇺🇦 UKRAINE (Day 1,694) — Russian ballistic missiles hit Kyiv for a second day, with no warning from Western partners, Zelensky says (Al Jazeera). Trump says both sides agreed an energy ceasefire; Zelensky says Russia hit at least 6 energy sites and wounded 33. Lavrov rejects any pause. A drone sank the cargo ship HS Dignity off Bulgaria: 11 crew missing.\n\n🇮🇷 IRAN WAR (Day 229) — Houthis claim missile and drone attacks on Riyadh's airport and Aramco sites and vow more. The coalition says it downed a missile aimed at Riyadh. In Hormuz, the IRGC says a container ship hit a mine; UKMTO reports an \"unknown projectile.\"\n\n🇵🇸 GAZA — Ministry: 1,493 killed since the truce (as of Oct 12). One killed in Gaza City Tuesday. Two journalists wounded in Ramallah.\n\n🇸🇩 SUDAN — Army chief al-Burhan rules out talks with the RSF.\n\nSwipe for maps + numbers ➡️\nWhich front are you watching most? Comment below 👇\n\nSources: Al Jazeera, France 24, AFP, Times of Israel, Daily Trust. Figures are as reported by those outlets; warring-party claims are unverified.\n\nFollow @wardesk_daily for the war brief every morning.\n\n#worldnews #ukraine #russia #iran #gaza #sudan #middleeast #geopolitics #breakingnews #news #war #houthis #saudiarabia #straitofhormuz #wardesk",
+ "caption_facebook": "WORLD AT WAR: Wednesday, Oct 14, 2026\n4 fronts, 24 hours. Here's what changed.\n\n🇺🇦 UKRAINE (Day 1,694)\n• Russian ballistic missiles struck Kyiv for a second day with no advance warning from Western partners, Zelensky said (Al Jazeera). Casualty figures were not yet reported.\n• Trump says both sides agreed to an energy ceasefire. Zelensky says Russia hit at least six energy facilities and wounded 33 on Monday; Lavrov rejected any pause.\n• Black Sea: a drone sank the cargo ship HS Dignity off Bulgaria on Oct 13; 11 crew are missing. Bulgaria's PM says there is no clear evidence who did it.\n• The EU approved its largest sanctions package since 2022 (~1,569 listings).\n\n🇮🇷 IRAN WAR (Day 229)\n• Houthis claim missile and drone attacks on Riyadh's airport and Aramco sites in Riyadh and Dhahran and vow more. The Saudi-led coalition says it intercepted a missile aimed at Riyadh. Several foreign airlines have halted flights to Riyadh.\n• Hormuz: the IRGC says a 2,500+ container ship hit a mine and sank; UKMTO reported an \"unknown projectile.\" The accounts differ.\n• ICRC: 700+ casualties in a week at front-line hospitals in Yemen.\n• Trump says a decision on Iran will come \"very soon.\"\n\n🇵🇸 GAZA / WEST BANK / LEBANON\n• Gaza's Health Ministry: 1,493 killed and 5,299 wounded since the truce (as of Oct 12); 74,382 total. It does not separate combatants from civilians.\n• An Israeli strike on a vehicle in Gaza City killed one on Oct 13. The IDF says it killed five operatives in recent strikes.\n• Two journalists were wounded in Ramallah (Wafa). On Oct 12 unexploded Hezbollah ordnance killed a teenager on an Israeli school trip near the border (Times of Israel).\n\n🇸🇩 SUDAN\n• Army chief al-Burhan ruled out negotiations with the RSF and vowed to keep fighting (Daily Trust, Oct 12). The army-allied Joint Force claims it retook Bir Saliba near El Geneina (unverified).\n\nWHAT TO WATCH: Kyiv's toll and the truce; who sank HS Dignity; Houthi follow-through on Saudi airports.\n\nSources: Al Jazeera, France 24, AFP, Times of Israel, Daily Trust. Figures are as reported by those outlets.\n\n👉 Follow WARDESK for the war brief every morning."
+}
