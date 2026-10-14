@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-14",
+  "date_label": "OCT 14, 2026",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "AI BRIEF  ·  OCT 14",
+      "headline": "Spies, worms and {{two new giants}}",
+      "dek": "OpenAI says a staffer bugged an exec meeting room. Plus new frontier models from Google and Meta, and an AI-worm warning.",
+      "items": [
+        "OpenAI says a staffer **bugged its office**",
+        "Gemini 4 Argon **goes wide**",
+        "Meta's first frontier model: **Muse Wonder**",
+        "Anthropic warns of **AI worms** on smart TVs"
+      ]
+    },
+    {
+      "type": "story",
+      "tag": "Security",
+      "alert": true,
+      "headline": "OpenAI says a staffer bugged its office",
+      "bullets": [
+        "A hidden recording device was found Sept 30 in an **executive conference room** in San Francisco, per an FBI complaint.",
+        "OpenAI says it used **its own AI models** to trace it to an engineer, who was fired and **arrested Oct 9**.",
+        "He's charged with intercepting oral communications. OpenAI says it sees **no sign** weights, code or user data were taken."
+      ],
+      "why": "The FBI director called it a national security matter. AI labs' secrets are now a counterintelligence priority.",
+      "source": "OpenAI; DOJ/FBI complaint via CNN, Bloomberg, Oct 13"
+    },
+    {
+      "type": "story",
+      "tag": "Models",
+      "headline": "Google's Gemini 4 Argon goes wide",
+      "bullets": [
+        "After a Sept 30 debut for cyber defenders, Argon is now **broadly available**: API, plus the Gemini app for Pro/Ultra users.",
+        "Intro price **$2 / $10** per million input/output tokens until Nov 30, then $4 / $20, per Google.",
+        "Google claims **#1 on the Vals Index**. No independent lab has reproduced its scores yet."
+      ],
+      "why": "Bloomberg reported some staff found it weaker at real coding than its benchmarks suggest; Google disputes that.",
+      "source": "Google blog, Oct 13; Bloomberg; Reuters"
+    },
+    {
+      "type": "story",
+      "tag": "Models",
+      "headline": "Meta ships its first frontier model",
+      "bullets": [
+        "Meta's Superintelligence Lab released **Muse Wonder** and **Wonder Full** on Oct 12. Both will power its Muse agent.",
+        "Meta says they **match** top rival models on benchmarks. Those are Meta's own tests, not independent ones.",
+        "Wonder costs **$4 / $20** per million tokens via API; Wonder Full is limited to Muse Code subscribers."
+      ],
+      "why": "Meta's pitch is \"active memory\": an assistant that keeps track of what matters to you over weeks and months.",
+      "source": "Meta via TechCrunch, Oct 12"
+    },
+    {
+      "type": "story",
+      "tag": "Research",
+      "headline": "Anthropic: AI worms may hit smart TVs soon",
+      "bullets": [
+        "Anthropic's red team says small models may be **months away** from copying themselves onto cheap connected devices.",
+        "In a demo, an open model ran across **15 off-brand Android TV boxes** (about $55 each), very slowly.",
+        "No small model does this reliably yet, but on current trends one could **by end of 2026**, the team projects."
+      ],
+      "why": "Self-copying AI with no central host would be hard to shut down. Anthropic urges secure defaults and ISP monitoring now.",
+      "source": "Anthropic Frontier Red Team, Oct 12; Al Jazeera"
+    },
+    {
+      "type": "stats",
+      "tag": "By the numbers",
+      "headline": "This week in AI",
+      "stats": [
+        {"value": "$2/$10", "label": "Gemini 4 Argon intro price per **1M tokens** (in/out)", "source": "Google"},
+        {"value": "$4/$20", "label": "Meta's **Muse Wonder** API price per 1M tokens", "source": "Meta via TechCrunch"},
+        {"value": "8 of 9", "label": "Hardware types where a **9B model** got itself running", "source": "Anthropic red team"},
+        {"value": "90–99%", "label": "Drop in illicit Claude copying, **Anthropic claims**", "source": "Anthropic via Al Jazeera"}
+      ]
+    },
+    {
+      "type": "watch",
+      "tag": "What to watch",
+      "headline": "Next up",
+      "bullets": [
+        "Where the **FBI investigation** into the OpenAI device leads",
+        "**Independent tests** of Argon and Muse Wonder vs. the labs' own claims",
+        "Argon's intro pricing **ends Nov 30**: watch for rival price moves"
+      ],
+      "question": "Do you trust benchmark scores that AI labs publish about their own models? 👇"
+    }
+  ],
+  "caption_instagram": "Spies, worms and two new giants. 🕵️\n\n🚨 OpenAI says an engineer hid a recording device in an executive conference room in San Francisco. Per an FBI complaint, he was arrested Oct 9 and charged with intercepting oral communications. OpenAI says it sees no sign model weights, code or customer data were taken.\n\n💎 Google's Gemini 4 Argon is now broadly available, with intro pricing of $2/$10 per million tokens until Nov 30. Google claims top benchmark scores; Bloomberg reported some staff found it weaker on real coding, which Google disputes.\n\n🧠 Meta released Muse Wonder and Muse Wonder Full, its first frontier models, pitched on long-term \"active memory.\" Benchmark claims are Meta's own.\n\n🦠 Anthropic's red team warns small AI models may be months from copying themselves onto cheap smart devices like TV boxes.\n\nDo you trust benchmark scores labs publish about their own models? 👇\n\nSources: OpenAI, US DOJ/FBI, CNN, Bloomberg, Google, Reuters, Meta, TechCrunch, Anthropic, Al Jazeera\n\nFollow @_aidesk_ for AI news without the hype.\n\n#AI #ArtificialIntelligence #AInews #TechNews #OpenAI #Gemini #Google #Meta #Anthropic #Claude #AIsafety #Cybersecurity #MachineLearning #Tech #AIDESK",
+  "caption_facebook": "AI BRIEF, Oct 14: Spies, worms and two new giants.\n\n• OpenAI says a staffer bugged its office: A hidden recording device was found Sept 30 in an executive conference room at OpenAI's San Francisco offices, according to an FBI complaint. OpenAI says it used its own AI models to trace it to an engineer, who was fired and referred to the FBI. He was arrested Oct 9 and charged with using or attempting to use a device to intercept oral communications; the charges are allegations. OpenAI says it has no indication model weights, source code or customer data were accessed or taken. FBI Director Kash Patel called it a national security matter. (OpenAI; US DOJ/FBI; CNN; Bloomberg)\n\n• Gemini 4 Argon goes wide: After a Sept 30 release to cyber defenders, Google made Gemini 4 Argon broadly available on Oct 13 via its API and to Google AI Pro/Ultra subscribers. Intro pricing is $2 per million input and $10 per million output tokens until Nov 30, then $4/$20. Google claims it ranks #1 on the Vals Index; Bloomberg reported some employees found it weaker on real coding than its benchmarks suggest, which Google disputes. (Google; Reuters; Bloomberg)\n\n• Meta's first frontier model: Meta's Superintelligence Lab released Muse Wonder and Muse Wonder Full on Oct 12. Meta says they match leading rival models on benchmarks (its own testing) and emphasizes long-term \"active memory.\" Muse Wonder costs $4/$20 per million tokens via API; Wonder Full is limited to Muse Code subscribers. (Meta; TechCrunch)\n\n• AI worms on smart TVs?: Anthropic's Frontier Red Team says small AI models may be months away from being able to copy themselves onto cheap internet-connected devices. A demo ran an open model across 15 off-brand Android TV boxes. No small model does this reliably yet, but the team projects one could by end of 2026 and urges secure device defaults and ISP monitoring. Separately, Anthropic claims new defenses cut illicit extraction of Claude data by 90-99%. (Anthropic; Al Jazeera)\n\nDo you trust the benchmark scores AI labs publish about their own models? Tell us below.\n\nFollow AIDESK for AI news without the hype, every other day."
+}
