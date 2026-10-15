@@ -122,7 +122,7 @@ def slide_html(s, i, n, date_label):
 async def shoot(pages, outdir):
     from playwright.async_api import async_playwright
     async with async_playwright() as p:
-        b = await p.chromium.launch(args=["--allow-file-access-from-files"])
+        b = await p.chromium.launch(executable_path=os.environ.get("CHROME_PATH") or None, args=["--allow-file-access-from-files"])
         pg = await b.new_page(viewport={"width": W, "height": H})
         for idx, h in enumerate(pages, 1):
             f = os.path.join(outdir, f"slide_{idx:02d}.html")

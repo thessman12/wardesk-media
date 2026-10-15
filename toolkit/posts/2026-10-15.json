@@ -1,0 +1,424 @@
+{
+ "date": "2026-10-15",
+ "date_label": "Thu · Oct 15, 2026",
+ "slides": [
+  {
+   "type": "cover",
+   "kicker": "Daily war brief",
+   "title": "World<br>at [[war]]",
+   "fronts": [
+    {
+     "k": "Ukraine · Day 1,695",
+     "v": "Kyiv hit again: [[4 killed]], 39 missiles claimed"
+    },
+    {
+     "k": "Iran war · Day 230",
+     "v": "Hormuz ships [[sinking]] as Houthis hit Saudi Arabia"
+    },
+    {
+     "k": "Gaza",
+     "v": "Strike kills 1 as Netanyahu eyes [[West Bank]] control"
+    },
+    {
+     "k": "Sudan",
+     "v": "Army: [[no talks]] with RSF"
+    }
+   ],
+   "sources": "Sources: Kyiv Independent, Al Jazeera, CBS News/AFP, Daily Trust",
+   "map": {
+    "bbox": [
+     -5,
+     0,
+     72,
+     56
+    ],
+    "highlight": [
+     "Ukraine",
+     "Iran",
+     "Yemen",
+     "Sudan"
+    ],
+    "admin1": [
+     [
+      "Gaza Strip",
+      "Gaza Strip",
+      "#E5372B"
+     ]
+    ],
+    "labels": [
+     {
+      "lon": 31,
+      "lat": 52.5,
+      "text": "Ukraine",
+      "size": 22,
+      "color": "#F2F0EA"
+     },
+     {
+      "lon": 54,
+      "lat": 36.5,
+      "text": "Iran",
+      "size": 22,
+      "color": "#F2F0EA"
+     },
+     {
+      "lon": 30,
+      "lat": 20.5,
+      "text": "Sudan",
+      "size": 22,
+      "color": "#F2F0EA"
+     },
+     {
+      "lon": 48,
+      "lat": 12.2,
+      "text": "Yemen",
+      "size": 22,
+      "color": "#F2F0EA"
+     },
+     {
+      "lon": 28.5,
+      "lat": 32.3,
+      "text": "Gaza ▸",
+      "size": 22,
+      "color": "#F2F0EA"
+     }
+    ]
+   }
+  },
+  {
+   "type": "map",
+   "tag": "Ukraine · Day 1,695",
+   "map": {
+    "bbox": [
+     22,
+     43.2,
+     53,
+     53.2
+    ],
+    "highlight": [
+     "Ukraine"
+    ],
+    "admin1": [
+     [
+      "Ukraine",
+      "Donets'k",
+      "hatch"
+     ]
+    ],
+    "labels": [
+     {
+      "lon": 42.5,
+      "lat": 51.6,
+      "text": "Russia"
+     },
+     {
+      "lon": 28.6,
+      "lat": 49.2,
+      "text": "Ukraine"
+     }
+    ],
+    "points": [
+     {
+      "lon": 30.52,
+      "lat": 50.45,
+      "label": "Kyiv",
+      "sub": "4 killed, 25 hurt",
+      "kind": "strike",
+      "dx": 22,
+      "dy": -30
+     },
+     {
+      "lon": 36.25,
+      "lat": 49.99,
+      "label": "Kharkiv",
+      "sub": "8 ballistic missiles",
+      "kind": "strike",
+      "dx": 22,
+      "dy": 22
+     }
+    ]
+   },
+   "headline": "Kyiv hit [[again.]] Truce? Nobody agrees.",
+   "bullets": [
+    "**Oct 13-14:** missiles hit Kyiv a second night: **4 killed, 25 hurt**, incl. 3 women in a nine-story block (Kyiv Independent).",
+    "**Nationwide:** at least **10 killed, 91 hurt** in a day (regional officials). Zelensky claims **39 ballistic missiles**, 120+ drones, **600,000** without power.",
+    "**Truce:** Trump says both sides agreed an energy ceasefire. Kremlin (Oct 12): talks go on; Russia wants lasting peace, not a ceasefire."
+   ],
+   "sources": "Sources: Kyiv Independent (Oct 14), Ukrainska Pravda (Oct 12-13). Zelensky/Ukrainian officials' figures not independently verified."
+  },
+  {
+   "type": "stats",
+   "tag": "By the numbers",
+   "headline": "Today in [[4 numbers]]",
+   "stats": [
+    {
+     "n": "10",
+     "l": "Killed across Ukraine in a day; 91 injured, per regional authorities",
+     "s": "Kyiv Independent",
+     "amber": true
+    },
+    {
+     "n": "600K",
+     "l": "People without power after Russian strikes, per Zelensky",
+     "s": "Zelensky via Kyiv Independent",
+     "amber": true
+    },
+    {
+     "n": "12",
+     "l": "Killed in Oct 10 Riyadh airport attack, Saudi authorities say (CBS reports 13)",
+     "s": "Al Jazeera / CBS News"
+    },
+    {
+     "n": "23",
+     "l": "Ship attacks near Hormuz Oct 1-14, almost double the war's monthly average",
+     "s": "AFP via CBS News"
+    }
+   ],
+   "sources": "Sources: Kyiv Independent, Al Jazeera, CBS News/AFP. Outlets differ on the Riyadh toll."
+  },
+  {
+   "type": "map",
+   "tag": "Iran war · Day 230",
+   "map": {
+    "bbox": [
+     38,
+     11,
+     62,
+     33.5
+    ],
+    "highlight": [
+     "Iran",
+     "Yemen"
+    ],
+    "labels": [
+     {
+      "lon": 54,
+      "lat": 32.3,
+      "text": "Iran"
+     },
+     {
+      "lon": 41.8,
+      "lat": 21.5,
+      "text": "Saudi Arabia"
+     }
+    ],
+    "points": [
+     {
+      "lon": 46.7,
+      "lat": 24.96,
+      "label": "Riyadh",
+      "sub": "Airport: 12 dead, Oct 10",
+      "kind": "strike",
+      "dx": 22,
+      "dy": 34
+     },
+     {
+      "lon": 39.6,
+      "lat": 24.47,
+      "label": "Medina",
+      "sub": "Intercept (claim)",
+      "kind": "strike",
+      "dx": -22,
+      "dy": -30
+     },
+     {
+      "lon": 56.4,
+      "lat": 26.6,
+      "label": "Hormuz",
+      "sub": "Ships hit, 1+ sunk",
+      "kind": "strike",
+      "dx": 22,
+      "dy": 30
+     },
+     {
+      "lon": 44.2,
+      "lat": 15.35,
+      "label": "Yemen",
+      "sub": "Houthi launch area",
+      "kind": "info",
+      "dx": 22,
+      "dy": 12
+     }
+    ],
+    "arrows": [
+     [
+      [
+       44.2,
+       15.5
+      ],
+      [
+       46.6,
+       24.8
+      ]
+     ],
+     [
+      [
+       43.8,
+       15.9
+      ],
+      [
+       39.7,
+       24.2
+      ]
+     ]
+    ]
+   },
+   "headline": "Ships sunk. [[Saudi airports under fire.]]",
+   "bullets": [
+    "**Hormuz:** 4 ships hit by an \"unknown projectile\" Oct 13 (UKMTO). Vanguard says GFS Pride sank; IRGC claims a ship hit a mine. Neither verified.",
+    "**Saudi Arabia:** Houthis vow more strikes on airports. Coalition says it downed a missile over Medina; Houthis call that \"a lie.\"",
+    "**Riyadh airport (Oct 10):** 12 killed per Saudi authorities; CBS says 13.",
+    "**Trump** is weighing joining Saudi strikes on the Houthis."
+   ],
+   "sources": "Sources: CBS News/AFP, Al Jazeera, UKMTO, Vanguard. IRGC, Houthi and coalition statements are claims."
+  },
+  {
+   "type": "map",
+   "tag": "Gaza · West Bank",
+   "map": {
+    "bbox": [
+     33.2,
+     30.9,
+     37.2,
+     33.6
+    ],
+    "admin1": [
+     [
+      "Gaza Strip",
+      "Gaza Strip",
+      "#E5372B"
+     ],
+     [
+      "West Bank",
+      "West Bank",
+      "hatch"
+     ]
+    ],
+    "labels": [
+     {
+      "lon": 34.9,
+      "lat": 30.98,
+      "text": "Israel",
+      "size": 24
+     },
+     {
+      "lon": 36.3,
+      "lat": 32.2,
+      "text": "Jordan",
+      "size": 24
+     }
+    ],
+    "points": [
+     {
+      "lon": 34.47,
+      "lat": 31.52,
+      "label": "Gaza City",
+      "sub": "1 killed, vehicle strike",
+      "kind": "strike",
+      "dx": -22,
+      "dy": -40
+     },
+     {
+      "lon": 35.2,
+      "lat": 31.9,
+      "label": "Ramallah",
+      "sub": "2 journalists hurt",
+      "kind": "strike",
+      "dx": 22,
+      "dy": 2
+     }
+    ]
+   },
+   "headline": "Truce year two. [[Still dying.]]",
+   "bullets": [
+    "**Oct 13:** Israeli air strike on a car in Gaza City's Tuffah district kills 1, wounds several, per emergency services (Al Jazeera).",
+    "**Toll:** 74,382+ killed since Oct 2023 (Wafa). Al Jazeera says 1,400+ killed since the Oct 2025 truce.",
+    "**Ramallah:** 2 journalists hurt, a child hit by live fire, NGO offices raided (Wafa, Palestinian health ministry).",
+    "**Netanyahu** says Israel will extend control across the West Bank: \"There will be no Arab army west of the Jordan River.\""
+   ],
+   "sources": "Sources: Al Jazeera (Oct 14), Wafa. Israeli military statements on individual strikes not available at time of writing."
+  },
+  {
+   "type": "map",
+   "tag": "Sudan · Latest",
+   "map": {
+    "bbox": [
+     21.5,
+     8.5,
+     38.5,
+     20
+    ],
+    "highlight": [
+     "Sudan"
+    ],
+    "admin1": [
+     [
+      "Sudan",
+      "Blue Nile",
+      "hatch"
+     ],
+     [
+      "Sudan",
+      "West Kordofan",
+      "hatch"
+     ]
+    ],
+    "labels": [
+     {
+      "lon": 30,
+      "lat": 18.6,
+      "text": "Sudan"
+     },
+     {
+      "lon": 30,
+      "lat": 8.9,
+      "text": "South Sudan",
+      "size": 24
+     }
+    ],
+    "points": [
+     {
+      "lon": 22.45,
+      "lat": 13.45,
+      "label": "Bir Saliba",
+      "sub": "Joint Force claims recapture",
+      "kind": "info",
+      "dx": 22,
+      "dy": -30
+     },
+     {
+      "lon": 34.3,
+      "lat": 11.7,
+      "label": "Blue Nile",
+      "sub": "Fighting continues",
+      "kind": "info",
+      "dx": -22,
+      "dy": 34
+     }
+    ]
+   },
+   "headline": "Army: [[no talks.]] War grinds on.",
+   "bullets": [
+    "**Oct 12:** army chief al-Burhan rules out negotiations with the RSF and vows to keep fighting in Darfur, Kordofan and Blue Nile (Daily Trust).",
+    "**Near El Geneina:** the army-allied Joint Force says it retook Bir Saliba. Unverified claim, one side only.",
+    "**Note:** few fresh independently confirmed reports from the last 24h; the items above are the latest we could verify."
+   ],
+   "sources": "Sources: Daily Trust/AllAfrica (Oct 12). Battlefield claims come from one side and are unverified."
+  },
+  {
+   "type": "watch",
+   "tag": "What to watch",
+   "headline": "This [[week]]",
+   "bullets": [
+    "**Kyiv:** whether Moscow confirms the energy truce, and the final toll from the Oct 13-14 strikes.",
+    "**Hormuz:** verification of reported sinkings; Iran-Oman talks on safe shipping routes (Iran foreign ministry).",
+    "**Saudi Arabia:** Houthi follow-through; Trump's call on joining strikes. EU-GCC summit (Oct 24) postponed.",
+    "**Gaza/West Bank:** Netanyahu's push on West Bank control; truce toll."
+   ],
+   "cta": "Follow for the war brief every morning",
+   "cta_sub": "Turn on notifications · Share with someone who should know",
+   "sources": "WARDESK compiles reporting from named outlets. Casualty figures are as reported by the cited sources."
+  }
+ ],
+ "caption_instagram": "4 wars. 24 hours. Here's what changed. ⬇️\n\n🇺🇦 UKRAINE (Day 1,695) — Ballistic missiles hit Kyiv a second night: 4 killed, 25 injured (Kyiv Independent). Across Ukraine at least 10 killed, 91 injured in a day. Zelensky says Russia fired 39 ballistic missiles and 120+ drones and 600,000 lost power (claims). Trump says an energy ceasefire is agreed; the Kremlin says it wants lasting peace, not a ceasefire.\n\n🇮🇷 IRAN WAR (Day 230) — Ship attacks around Hormuz are at their highest level of the war: 23 in Oct 1-14 (AFP). Vanguard says GFS Pride sank; the IRGC claims a separate ship hit a mine. Houthis vow more strikes on Saudi airports; the Oct 10 Riyadh airport attack killed 12 per Saudi authorities (CBS says 13).\n\n🇵🇸 GAZA / WEST BANK — Israeli strike on a car in Gaza City kills 1. Two journalists hurt in Ramallah. Netanyahu says Israel will extend control across the West Bank.\n\n🇸🇩 SUDAN — Army chief al-Burhan (Oct 12) rules out talks with the RSF.\n\nSwipe for maps + numbers ➡️\nWhich front are you watching most? Comment below 👇\n\nSources: Kyiv Independent, Al Jazeera, CBS News/AFP, Daily Trust. Figures are as reported by those outlets; warring-party claims are unverified.\n\nFollow @wardesk_daily for the war brief every morning.\n\n#worldnews #ukraine #russia #iran #gaza #sudan #middleeast #geopolitics #breakingnews #news #war #houthis #saudiarabia #straitofhormuz #wardesk",
+ "caption_facebook": "WORLD AT WAR: Thursday, Oct 15, 2026\n4 fronts, 24 hours. Here's what changed.\n\n🇺🇦 UKRAINE (Day 1,695)\n• Russian ballistic missiles struck Kyiv for a second night: 4 killed and 25 injured, including 3 women killed in a nine-story residential building (Kyiv Independent).\n• Nationwide, regional authorities report at least 10 killed and 91 injured in a day. Zelensky says Russia launched 39 ballistic missiles and 120+ drones at energy and critical infrastructure, leaving 600,000 without power. Ukraine's air force says it downed 4 missiles and 115 drones. These are official Ukrainian claims.\n• Trump says Ukraine and Russia agreed to an energy ceasefire. On Oct 12 Kremlin spokesman Peskov said consultations continue and Russia wants lasting peace, not a ceasefire.\n\n🇮🇷 IRAN WAR (Day 230)\n• Hormuz: four ships were hit by an \"unknown projectile\" on Oct 13 (UKMTO). Vanguard says the container ship GFS Pride sank; the IRGC separately claims a cargo ship hit a mine. Neither is verified. 23 attacks were recorded Oct 1-14, almost double the war's monthly average (AFP).\n• Houthis vow more strikes on Saudi airports and oil sites. The coalition says it intercepted a missile over Medina on Oct 15; the Houthis call that a lie. The Oct 10 Riyadh airport attack killed 12 and wounded 300+ per Saudi authorities (CBS reports 13).\n• Trump said Oct 8 the US would not attack Iran before the Nov 3 midterms; he is weighing joining Saudi strikes on the Houthis.\n\n🇵🇸 GAZA / WEST BANK\n• An Israeli air strike on a car in Gaza City killed one and wounded several on Oct 13, per emergency services (Al Jazeera). Gaza death toll since Oct 2023: 74,382+ (Wafa); 1,400+ since the Oct 2025 truce (Al Jazeera).\n• Two journalists were wounded and NGO offices raided in Ramallah (Wafa). Netanyahu said Israel will extend control across the West Bank.\n\n🇸🇩 SUDAN\n• Army chief al-Burhan ruled out negotiations with the RSF (Daily Trust, Oct 12). The Joint Force claims it retook Bir Saliba (unverified).\n\nWHAT TO WATCH: Kyiv's final toll and the truce; Hormuz sinkings; Houthi strikes on Saudi Arabia.\n\nSources: Kyiv Independent, Al Jazeera, CBS News/AFP, Daily Trust. Figures are as reported by those outlets.\n\n👉 Follow WARDESK for the war brief every morning."
+}
