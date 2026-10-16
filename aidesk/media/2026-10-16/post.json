@@ -1,0 +1,90 @@
+{
+  "date": "2026-10-16",
+  "date_label": "OCT 16, 2026",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "AI BRIEF  ·  OCT 16",
+      "headline": "Record revenue, {{record scrutiny}}",
+      "dek": "Anthropic's sales soar as the FTC and 8 states go after AI labs. Plus an AI-debt scare and Meta goes open.",
+      "items": [
+        "FTC demands records from **OpenAI & Anthropic**",
+        "Anthropic posts a **$16.8B** quarter",
+        "AI debt fears slam **CoreWeave**",
+        "Meta releases an **816B open model**"
+      ]
+    },
+    {
+      "type": "story",
+      "tag": "Policy",
+      "headline": "FTC demands safety records from AI labs",
+      "bullets": [
+        "The FTC sent OpenAI and Anthropic **50+ page civil investigative demands** on Oct 14, per Axios.",
+        "It wants records on **security incidents**, safeguards, marketing and privacy. Executives may be made to testify.",
+        "Also Wednesday: **8 states** sued OpenAI, alleging it misled users, including teens, about ChatGPT's safety."
+      ],
+      "why": "Demands like these can come before a lawsuit. OpenAI says it will \"engage constructively\" with the FTC. The states' claims are allegations.",
+      "source": "Axios, Oct 15; state suits via AAP, Oct 15"
+    },
+    {
+      "type": "story",
+      "tag": "Business",
+      "headline": "Anthropic's sales hit $16.8B in a quarter",
+      "bullets": [
+        "Q3 revenue rose **45%** from Q2's $11.6B, per two people at its Oct 14 investor day (FT, Reuters).",
+        "Investors were told it was **profitable on an adjusted basis** in Q3. Last year it lost $8B+ on an operating basis.",
+        "It's targeting an IPO valuation **above $2 trillion**, likely after the November midterms, per Reuters."
+      ],
+      "why": "Anthropic is expected to list before OpenAI. Its numbers could set the price tag for the whole AI boom.",
+      "source": "Financial Times; Reuters, Oct 14"
+    },
+    {
+      "type": "story",
+      "tag": "Markets",
+      "headline": "AI debt fears slam CoreWeave",
+      "bullets": [
+        "CoreWeave stock fell **15%+** on Oct 14, and yields on its 2031 bonds topped **16%**, a level usually seen as distress.",
+        "The GPU-cloud company is loss-making and carries **about $50B in debt**, per Reuters.",
+        "CEO Mike Intrator told staff its contract backlog more than covers its debt and markets can \"act irrationally.\""
+      ],
+      "why": "Chip stocks lost **$1.6T** in value over six sessions amid rate fears. Investors are asking who pays for the AI build-out.",
+      "source": "Reuters; CNBC, Oct 14-15"
+    },
+    {
+      "type": "story",
+      "tag": "Models",
+      "headline": "Meta releases a giant open-weight model",
+      "bullets": [
+        "**Muse Spark Open** has 816B parameters (42B active) and a 1M-token context window. Out Oct 15.",
+        "Meta says it runs on **two M5 Ultra Mac Studios** and calls it the most capable US open-weight model. Meta's claim.",
+        "Weights are downloadable, but the license has **limited commercial terms**. It isn't fully open source."
+      ],
+      "why": "Top open models have lately come mostly from China. This gives developers a big US model they can run themselves.",
+      "source": "Meta; TechCrunch, Oct 15"
+    },
+    {
+      "type": "stats",
+      "tag": "By the numbers",
+      "headline": "This week in AI",
+      "stats": [
+        {"value": "$16.8B", "label": "Anthropic's **Q3 revenue**, per sources", "source": "FT / Reuters"},
+        {"value": "$1.6T", "label": "Chip-stock value lost in **six sessions**", "source": "Reuters"},
+        {"value": "16%+", "label": "Yield on **CoreWeave's** 2031 bonds", "source": "Reuters"},
+        {"value": "8", "label": "States that just **sued OpenAI**", "source": "AAP / Axios"}
+      ]
+    },
+    {
+      "type": "watch",
+      "tag": "What to watch",
+      "headline": "Next up",
+      "bullets": [
+        "Whether the FTC probe becomes a **lawsuit**, and which labs get demands next",
+        "Anthropic's **IPO filing** and how public investors value it",
+        "Whether AI-debt jitters spread beyond **CoreWeave** to other GPU clouds"
+      ],
+      "question": "Is the AI boom built on solid ground, or on too much debt? 👇"
+    }
+  ],
+  "caption_instagram": "Record revenue, record scrutiny. 📈🏛️\n\n🏛️ The FTC sent OpenAI and Anthropic 50+ page civil investigative demands seeking records on security incidents, safeguards, marketing and privacy (Axios). Separately, 8 states sued OpenAI, alleging it misled users about ChatGPT's safety. OpenAI says it will engage constructively with the FTC.\n\n💰 Anthropic's Q3 revenue hit $16.8B, up 45% from Q2, according to people at its investor day (FT, Reuters). It's reportedly targeting a $2T+ IPO valuation.\n\n📉 CoreWeave stock fell 15%+ and its 2031 bond yields topped 16% on AI-debt fears (Reuters). The CEO says markets are acting irrationally.\n\n🧠 Meta released Muse Spark Open, an 816B-parameter open-weight model it says runs on two Mac Studios. Its license has limited commercial terms.\n\nIs the AI boom built on solid ground, or on too much debt? 👇\n\nSources: Axios, AAP, Financial Times, Reuters, CNBC, Meta, TechCrunch\n\nFollow @_aidesk_ for AI news without the hype.\n\n#AI #ArtificialIntelligence #AInews #TechNews #OpenAI #Anthropic #Claude #ChatGPT #FTC #Meta #OpenSource #CoreWeave #Nvidia #Stocks #AIDESK",
+  "caption_facebook": "AI BRIEF, Oct 16: Record revenue, record scrutiny.\n\n• FTC demands safety records: On Oct 14 the Federal Trade Commission sent OpenAI and Anthropic civil investigative demands (a type of civil subpoena) of more than 50 pages each, seeking documents on security incidents and safeguards, marketing materials and privacy policies, according to Axios. The FTC also plans to compel AI executives to testify. OpenAI said it will \"engage constructively with the FTC.\" Separately, eight states (Iowa, Kansas, Arizona, Arkansas, Idaho, Montana, Nebraska and West Virginia) sued OpenAI in state courts, alleging it misled users, including teens, about ChatGPT's safety. These are allegations. (Axios; AAP)\n\n• Anthropic's $16.8B quarter: Anthropic's Q3 revenue rose 45% from the prior quarter to $16.8 billion, according to two people who attended its Oct 14 investor day. Investors were told it was profitable on an adjusted basis. Reuters reports it is targeting an IPO valuation above $2 trillion, likely after the November midterms. (Financial Times; Reuters)\n\n• AI debt fears hit CoreWeave: CoreWeave shares fell more than 15% on Oct 14 and yields on its 2031 bonds rose above 16%, a level usually seen as a sign of distress. The loss-making GPU-cloud company carries about $50 billion in debt. CEO Mike Intrator told staff its backlog more than covers its debt obligations. The Philadelphia Semiconductor Index lost more than $1.6 trillion in market value over six sessions amid interest-rate worries. (Reuters; CNBC)\n\n• Meta goes open: Meta released Muse Spark Open on Oct 15, an 816-billion-parameter (42B active) model with a 1M-token context window and downloadable weights under a license with limited commercial terms. Meta says it runs on two M5 Ultra Mac Studios and calls it the most capable US open-weight model; independent benchmarks are pending. (Meta; TechCrunch)\n\nIs the AI boom built on solid ground, or on too much debt? Tell us below.\n\nFollow AIDESK for AI news without the hype, every other day."
+}
