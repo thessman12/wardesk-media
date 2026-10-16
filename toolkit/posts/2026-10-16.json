@@ -1,0 +1,425 @@
+{
+ "date": "2026-10-16",
+ "date_label": "Fri · Oct 16, 2026",
+ "slides": [
+  {
+   "type": "cover",
+   "kicker": "Daily war brief",
+   "title": "World<br>at [[war]]",
+   "fronts": [
+    {
+     "k": "Ukraine · Day 1,696",
+     "v": "Energy truce [[collapses]]: Kyiv hit by 850+ drones, officials say"
+    },
+    {
+     "k": "Iran war · Day 231",
+     "v": "Houthis hit Aden palace as Hormuz ships keep [[burning]]"
+    },
+    {
+     "k": "Gaza · West Bank",
+     "v": "UN: [[1,400+]] killed in Gaza since the truce"
+    },
+    {
+     "k": "Sudan",
+     "v": "Kordofan air strikes kill [[6 children]], monitors say"
+    }
+   ],
+   "sources": "Sources: PBS NewsHour, CBS News, Fox News/Reuters, UN News, Darfur24",
+   "map": {
+    "bbox": [
+     -5,
+     0,
+     72,
+     56
+    ],
+    "highlight": [
+     "Ukraine",
+     "Iran",
+     "Yemen",
+     "Sudan"
+    ],
+    "admin1": [
+     [
+      "Gaza Strip",
+      "Gaza Strip",
+      "#E5372B"
+     ]
+    ],
+    "labels": [
+     {
+      "lon": 31,
+      "lat": 52.5,
+      "text": "Ukraine",
+      "size": 22,
+      "color": "#F2F0EA"
+     },
+     {
+      "lon": 54,
+      "lat": 36.5,
+      "text": "Iran",
+      "size": 22,
+      "color": "#F2F0EA"
+     },
+     {
+      "lon": 30,
+      "lat": 20.5,
+      "text": "Sudan",
+      "size": 22,
+      "color": "#F2F0EA"
+     },
+     {
+      "lon": 48,
+      "lat": 12.2,
+      "text": "Yemen",
+      "size": 22,
+      "color": "#F2F0EA"
+     },
+     {
+      "lon": 28.5,
+      "lat": 32.3,
+      "text": "Gaza ▸",
+      "size": 22,
+      "color": "#F2F0EA"
+     }
+    ]
+   }
+  },
+  {
+   "type": "map",
+   "tag": "Ukraine · Day 1,696",
+   "map": {
+    "bbox": [
+     22,
+     43.2,
+     53,
+     53.2
+    ],
+    "highlight": [
+     "Ukraine"
+    ],
+    "admin1": [
+     [
+      "Ukraine",
+      "Donets'k",
+      "hatch"
+     ]
+    ],
+    "labels": [
+     {
+      "lon": 42.5,
+      "lat": 51.6,
+      "text": "Russia"
+     },
+     {
+      "lon": 28.6,
+      "lat": 49.2,
+      "text": "Ukraine"
+     }
+    ],
+    "points": [
+     {
+      "lon": 30.52,
+      "lat": 50.45,
+      "label": "Kyiv",
+      "sub": "850+ drones (Ukraine claims)",
+      "kind": "strike",
+      "dx": 22,
+      "dy": -30
+     },
+     {
+      "lon": 28.65,
+      "lat": 44.17,
+      "label": "Black Sea",
+      "sub": "2 cargo ships on fire, 7 missing",
+      "kind": "strike",
+      "dx": 22,
+      "dy": -34
+     }
+    ]
+   },
+   "headline": "Energy truce? [[Both sides cry foul.]]",
+   "bullets": [
+    "**Overnight (PBS, Oct 15):** Ukrainian officials say Russia hit Kyiv with **850+ drones**. Not independently verified.",
+    "**Truce:** Trump announced an energy ceasefire Oct 11. Zelensky says Russia never kept it; Putin says Ukraine broke it first.",
+    "**Black Sea:** two cargo ships set on fire in Romanian waters, **7 crew missing** (PBS).",
+    "**Rift:** Zelensky says the US is limiting intelligence and Starlink support."
+   ],
+   "sources": "Sources: PBS NewsHour (Oct 15), AP. Claims by Zelensky, Putin and Ukrainian officials are unverified."
+  },
+  {
+   "type": "stats",
+   "tag": "By the numbers",
+   "headline": "Today in [[4 numbers]]",
+   "stats": [
+    {
+     "n": "850+",
+     "l": "Drones fired at Kyiv overnight, per Ukrainian officials (claim)",
+     "s": "PBS NewsHour",
+     "amber": true
+    },
+    {
+     "n": "23",
+     "l": "Ship attacks near Hormuz since Oct 1, nearly double the war's monthly average",
+     "s": "Vanguard/IMO/UKMTO via CBS News",
+     "amber": true
+    },
+    {
+     "n": "17",
+     "l": "Killed in Houthi attacks on Riyadh airport Oct 7-11, per Saudi-led coalition (CBS reports 13 in one strike)",
+     "s": "Coalition via Fox News / CBS"
+    },
+    {
+     "n": "1,400+",
+     "l": "Palestinians killed in Gaza since the Oct 2025 ceasefire",
+     "s": "UN Security Council briefing, Oct 15"
+    }
+   ],
+   "sources": "Sources: PBS, CBS News, Fox News, UN News. Outlets differ on the Riyadh toll."
+  },
+  {
+   "type": "map",
+   "tag": "Iran war · Day 231",
+   "map": {
+    "bbox": [
+     38,
+     11,
+     62,
+     33.5
+    ],
+    "highlight": [
+     "Iran",
+     "Yemen"
+    ],
+    "labels": [
+     {
+      "lon": 54,
+      "lat": 32.3,
+      "text": "Iran"
+     },
+     {
+      "lon": 42.5,
+      "lat": 20.3,
+      "text": "Saudi Arabia"
+     }
+    ],
+    "points": [
+     {
+      "lon": 46.7,
+      "lat": 24.96,
+      "label": "Riyadh",
+      "sub": "17 dead Oct 7-11 (coalition)",
+      "kind": "strike",
+      "dx": 22,
+      "dy": 34
+     },
+     {
+      "lon": 39.6,
+      "lat": 24.47,
+      "label": "Medina",
+      "sub": "Intercept (claim)",
+      "kind": "strike",
+      "dx": -22,
+      "dy": -30
+     },
+     {
+      "lon": 56.4,
+      "lat": 26.6,
+      "label": "Hormuz",
+      "sub": "GFS Pride sank",
+      "kind": "strike",
+      "dx": 22,
+      "dy": 30
+     },
+     {
+      "lon": 45.04,
+      "lat": 12.78,
+      "label": "Aden",
+      "sub": "Palace hit",
+      "kind": "strike",
+      "dx": -22,
+      "dy": -34
+     }
+    ],
+    "arrows": [
+     [
+      [
+       44.2,
+       15.5
+      ],
+      [
+       46.6,
+       24.8
+      ]
+     ],
+     [
+      [
+       43.8,
+       15.9
+      ],
+      [
+       39.7,
+       24.2
+      ]
+     ]
+    ]
+   },
+   "headline": "Palace hit. [[Ships burning.]]",
+   "bullets": [
+    "**Aden (Oct 15):** Houthi missiles hit the presidential palace. 2 guards killed per Yemeni officials; 4 per government military sources (CBS, Fox).",
+    "**Hormuz:** CENTCOM says the IRGC struck container ship GFS Pride, which sank under tow; the IRGC claims a ship hit a mine. 10+ vessels hit since Oct 11.",
+    "**Medina:** coalition claims it downed a cruise missile; Houthis call that \"a shameless and brazen lie.\"",
+    "**Oil:** Brent ~$105 (Reuters)."
+   ],
+   "sources": "Sources: CBS News, Fox News/Reuters, CENTCOM. IRGC, Houthi and coalition statements are claims."
+  },
+  {
+   "type": "map",
+   "tag": "Gaza · West Bank",
+   "map": {
+    "bbox": [
+     33.2,
+     30.9,
+     37.2,
+     33.6
+    ],
+    "admin1": [
+     [
+      "Gaza Strip",
+      "Gaza Strip",
+      "#E5372B"
+     ],
+     [
+      "West Bank",
+      "West Bank",
+      "hatch"
+     ]
+    ],
+    "labels": [
+     {
+      "lon": 34.9,
+      "lat": 30.98,
+      "text": "Israel",
+      "size": 24
+     },
+     {
+      "lon": 36.7,
+      "lat": 31.3,
+      "text": "Jordan",
+      "size": 24
+     }
+    ],
+    "points": [
+     {
+      "lon": 34.47,
+      "lat": 31.52,
+      "label": "Gaza",
+      "sub": "1,400+ dead (UN)",
+      "kind": "strike",
+      "dx": -22,
+      "dy": -40
+     },
+     {
+      "lon": 35.25,
+      "lat": 32.2,
+      "label": "West Bank",
+      "sub": "1,600+ settler attacks in 2026",
+      "kind": "info",
+      "dx": 22,
+      "dy": 2
+     }
+    ]
+   },
+   "headline": "Truce on paper. [[1,400+ dead]] since.",
+   "bullets": [
+    "**UN Security Council (Oct 15):** more than **1,400 Palestinians** killed in Gaza since the Oct 2025 ceasefire. Aid access limited across 64% of Gaza's land (OCHA).",
+    "**Shelter:** IOM says supplies meet about **17%** of needs for 2.1 million people as winter nears.",
+    "**West Bank:** 1,600+ settler attacks recorded this year as of mid-September, **4,300+** Palestinians displaced (UN). Olive harvest under way.",
+    "**Lebanon:** Hezbollah admits seized explosives were its own (CBS). Israel's elections are Oct 27."
+   ],
+   "sources": "Sources: UN News (Oct 15), CBS News, Fox News. Israeli military comment on individual strikes not available."
+  },
+  {
+   "type": "map",
+   "tag": "Sudan · Latest",
+   "map": {
+    "bbox": [
+     21.5,
+     8.5,
+     38.5,
+     20
+    ],
+    "highlight": [
+     "Sudan"
+    ],
+    "admin1": [
+     [
+      "Sudan",
+      "North Kordofan",
+      "hatch"
+     ],
+     [
+      "Sudan",
+      "West Kordofan",
+      "hatch"
+     ]
+    ],
+    "labels": [
+     {
+      "lon": 30,
+      "lat": 18.6,
+      "text": "Sudan"
+     },
+     {
+      "lon": 30,
+      "lat": 8.9,
+      "text": "South Sudan",
+      "size": 24
+     }
+    ],
+    "points": [
+     {
+      "lon": 28.43,
+      "lat": 12.7,
+      "label": "Al-Nuhud",
+      "sub": "Strike, 1 killed (W. Kordofan)",
+      "kind": "strike",
+      "dx": -22,
+      "dy": 34
+     },
+     {
+      "lon": 30.3,
+      "lat": 14.0,
+      "label": "N. Kordofan",
+      "sub": "Abu Zaima: 5 children killed",
+      "kind": "strike",
+      "dx": 22,
+      "dy": -30
+     }
+    ]
+   },
+   "headline": "Six children killed. [[Army plane blamed.]]",
+   "bullets": [
+    "**Oct 15:** Emergency Lawyers Group says an army Antonov struck a home in Abu Zaima, North Kordofan: **5 children killed**, mother hurt. It says there were no military sites nearby. Army comment not found.",
+    "**West Kordofan:** a market strike near Wad Banda killed a child; a bombing in Al-Nuhud killed 1.",
+    "**Total:** 7 civilians incl. 6 children (Darfur24, local sources). Not independently verified."
+   ],
+   "sources": "Sources: Darfur24 (Oct 16), Emergency Lawyers Group. Single-source reports, unverified."
+  },
+  {
+   "type": "watch",
+   "tag": "What to watch",
+   "headline": "This [[week]]",
+   "bullets": [
+    "**Ukraine:** whether the energy truce is formally dead; Kyiv-Washington rift over intelligence and Starlink.",
+    "**Iran/Gulf:** Trump's call on joining Saudi strikes on the Houthis; reported US strike options (CNN, unverified by Fox). Midterms Nov 3.",
+    "**Hormuz:** missing seafarers; further sinkings.",
+    "**Gaza/Lebanon:** winter shelter crisis; Israeli elections Oct 27."
+   ],
+   "cta": "Follow for the war brief every morning",
+   "cta_sub": "Turn on notifications · Share with someone who should know",
+   "sources": "WARDESK compiles reporting from named outlets. Casualty figures are as reported by the cited sources."
+  }
+ ],
+ "caption_instagram": "4 fronts. 24 hours. Here's what changed. ⬇️\n\n🇺🇦 UKRAINE (Day 1,696) — Ukrainian officials say Russia hit Kyiv with 850+ drones overnight (claim, PBS). The Trump-announced energy truce is in tatters: Zelensky says Russia never kept it, Putin says Ukraine broke it first. Two cargo ships were set on fire in Romanian waters of the Black Sea, 7 crew missing.\n\n🇮🇷 IRAN WAR (Day 231) — Houthi missiles hit the presidential palace in Aden: 2 guards killed per Yemeni officials, 4 per government military sources. CENTCOM says the IRGC struck container ship GFS Pride, which sank; the IRGC claims a ship hit a mine. 23 ship attacks since Oct 1. Brent ~$105.\n\n🇵🇸 GAZA / WEST BANK — UN: more than 1,400 Palestinians killed in Gaza since the Oct 2025 ceasefire; 1,600+ settler attacks in the West Bank this year.\n\n🇸🇩 SUDAN — Monitors say army air strikes in Kordofan killed 7 civilians incl. 6 children (Darfur24, unverified).\n\nSwipe for maps + numbers ➡️\nWhich front are you watching most? Comment below 👇\n\nSources: PBS, CBS News, Fox News/Reuters, UN News, Darfur24. Warring-party claims are unverified.\n\nFollow @wardesk_daily for the war brief every morning.\n\n#worldnews #ukraine #russia #iran #gaza #sudan #middleeast #geopolitics #breakingnews #news #war #houthis #saudiarabia #straitofhormuz #wardesk",
+ "caption_facebook": "WORLD AT WAR: Friday, Oct 16, 2026\n4 fronts, 24 hours. Here's what changed.\n\n🇺🇦 UKRAINE (Day 1,696)\n• Ukrainian officials say Russia launched 850+ drones at Kyiv overnight (PBS; not independently verified).\n• Trump announced an energy ceasefire on Oct 11. Zelensky says Russia never observed it; Putin says Ukraine violated it first. Ukraine has resumed strikes on Russian refineries (AP).\n• Two cargo ships were set on fire in Romanian waters of the Black Sea; seven crew are missing (PBS).\n• Zelensky says the US is limiting intelligence and Starlink support.\n\n🇮🇷 IRAN WAR (Day 231)\n• Houthi missiles hit the presidential palace in Aden on Oct 15. Two security guards were killed per Yemeni officials; government military sources report four killed (Fox, CBS).\n• Hormuz: CENTCOM says the IRGC struck container ship GFS Pride, which sank while being towed. Iran's IRGC claims a cargo ship hit a mine. 10+ vessels have been hit since Oct 11 and 23 attacks recorded since Oct 1, nearly double the war's monthly average (Vanguard/IMO/UKMTO via CBS). CENTCOM says 40+ ships crossed in 24 hours.\n• Saudi-led coalition says Houthi attacks on Riyadh airport killed 17 and injured 333 between Oct 7-11 (CBS reported 13 killed in one strike). Coalition claims it downed a cruise missile over Medina; Houthis call that a lie.\n• Brent crude ~$105 (Reuters). The EU-GCC summit set for Oct 24 is postponed.\n\n🇵🇸 GAZA / WEST BANK\n• UN Security Council (Oct 15): more than 1,400 Palestinians killed in Gaza since the Oct 2025 ceasefire; shelter supplies meet about 17% of needs (IOM).\n• West Bank: 1,600+ settler attacks recorded this year as of mid-September; 4,300+ Palestinians displaced (UN).\n\n🇸🇩 SUDAN\n• Emergency Lawyers Group says a Sudanese army Antonov struck a home in Abu Zaima, North Kordofan, killing five children. Darfur24 reports 7 civilians, 6 of them children, killed across West and North Kordofan. Unverified; no army comment found.\n\nWHAT TO WATCH: the fate of the Ukraine energy truce; US decision on the Houthis; Hormuz shipping.\n\nSources: PBS, CBS News, Fox News/Reuters, UN News, Darfur24. Figures are as reported by those outlets; warring-party claims are unverified.\n\n👉 Follow WARDESK for the war brief every morning."
+}
