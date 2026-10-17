@@ -1,0 +1,418 @@
+{
+ "date": "2026-10-17",
+ "date_label": "Sat · Oct 17, 2026",
+ "slides": [
+  {
+   "type": "cover",
+   "kicker": "Daily war brief",
+   "title": "World<br>at [[war]]",
+   "fronts": [
+    {
+     "k": "Ukraine · Day 1,697",
+     "v": "Energy grid hit again: [[1 million+]] lose power, 8+ killed, officials say"
+    },
+    {
+     "k": "Iran war · Day 232",
+     "v": "IRGC says Hormuz is [[\"closed\"]] as tankers reported hit"
+    },
+    {
+     "k": "Gaza · West Bank",
+     "v": "UNICEF: [[340+ children]] killed since the ceasefire"
+    },
+    {
+     "k": "Sudan",
+     "v": "Nyala market strike: RSF says [[30 killed]], army disputes"
+    }
+   ],
+   "sources": "Sources: Al Jazeera/Reuters, UN News, UNICEF, UKMTO, AFP, Times of Israel",
+   "map": {
+    "bbox": [
+     -5,
+     0,
+     72,
+     56
+    ],
+    "highlight": [
+     "Ukraine",
+     "Iran",
+     "Yemen",
+     "Sudan"
+    ],
+    "admin1": [
+     [
+      "Gaza Strip",
+      "Gaza Strip",
+      "#E5372B"
+     ]
+    ],
+    "labels": [
+     {
+      "lon": 31,
+      "lat": 52.5,
+      "text": "Ukraine",
+      "size": 22,
+      "color": "#F2F0EA"
+     },
+     {
+      "lon": 54,
+      "lat": 36.5,
+      "text": "Iran",
+      "size": 22,
+      "color": "#F2F0EA"
+     },
+     {
+      "lon": 30,
+      "lat": 20.5,
+      "text": "Sudan",
+      "size": 22,
+      "color": "#F2F0EA"
+     },
+     {
+      "lon": 48,
+      "lat": 12.2,
+      "text": "Yemen",
+      "size": 22,
+      "color": "#F2F0EA"
+     },
+     {
+      "lon": 28.5,
+      "lat": 32.3,
+      "text": "Gaza ▸",
+      "size": 22,
+      "color": "#F2F0EA"
+     }
+    ]
+   }
+  },
+  {
+   "type": "map",
+   "tag": "Ukraine · Day 1,697",
+   "map": {
+    "bbox": [
+     21.5,
+     45.5,
+     41,
+     53
+    ],
+    "highlight": [
+     "Ukraine"
+    ],
+    "admin1": [
+     [
+      "Ukraine",
+      "Donets'k",
+      "hatch"
+     ]
+    ],
+    "labels": [
+     {
+      "lon": 38.5,
+      "lat": 52.2,
+      "text": "Russia"
+     },
+     {
+      "lon": 30.5,
+      "lat": 47.2,
+      "text": "Ukraine"
+     }
+    ],
+    "points": [
+     {
+      "lon": 36.23,
+      "lat": 49.99,
+      "label": "Kharkiv",
+      "sub": "2 killed, 12 hurt",
+      "kind": "strike",
+      "dx": -22,
+      "dy": 34
+     },
+     {
+      "lon": 37.56,
+      "lat": 48.72,
+      "label": "Kramatorsk",
+      "sub": "2 killed",
+      "kind": "strike",
+      "dx": -22,
+      "dy": 34
+     },
+     {
+      "lon": 26.25,
+      "lat": 50.62,
+      "label": "Rivne / Volyn",
+      "sub": "2 killed, 15 hurt",
+      "kind": "strike",
+      "dx": 22,
+      "dy": 34
+     },
+     {
+      "lon": 34.8,
+      "lat": 50.91,
+      "label": "Sumy",
+      "sub": "Shopping centre hit",
+      "kind": "strike",
+      "dx": -22,
+      "dy": -36
+     }
+    ]
+   },
+   "headline": "Power cut to [[1 million+.]] Malls hit.",
+   "bullets": [
+    "**Overnight into Oct 16:** Russian attacks killed at least **8** and injured **60** across nine regions, Ukrainian officials say (Al Jazeera/Reuters).",
+    "**Shopping centres** hit in Rivne and Sumy; drones set ~10 trucks ablaze at a customs terminal in Kovel.",
+    "**Grid:** Ukraine's energy ministry says power was restored to 1M+ people. In Volyn, ~370,000 households lost supply.",
+    "**Moscow:** Russia's military chief told Putin the assets for the energy campaign are in place (as reported). No Russian comment on the strikes found."
+   ],
+   "sources": "Sources: Al Jazeera citing Reuters (Oct 17). Casualty figures are from Ukrainian officials, not independently verified."
+  },
+  {
+   "type": "stats",
+   "tag": "By the numbers",
+   "headline": "Today in [[4 numbers]]",
+   "stats": [
+    {
+     "n": "328",
+     "l": "Civilians killed in Ukraine in September, 85% more than Sept 2025",
+     "s": "UN human rights monitors via Al Jazeera",
+     "amber": true
+    },
+    {
+     "n": "800,000",
+     "l": "People in Yemen cut off from aid by fighting, per WFP",
+     "s": "WFP via UN News, Oct 14",
+     "amber": true
+    },
+    {
+     "n": "340+",
+     "l": "Children killed in Gaza since the ceasefire, UNICEF says",
+     "s": "UNICEF via UN News, Oct 16"
+    },
+    {
+     "n": "30",
+     "l": "Killed in Nyala market strike, per RSF (claim). Army says it killed dozens of RSF fighters",
+     "s": "RSF / Sudanese army via AFP"
+    }
+   ],
+   "sources": "Sources: UN News, Al Jazeera/AFP. Nyala accounts conflict and are unverified."
+  },
+  {
+   "type": "map",
+   "tag": "Iran war · Day 232",
+   "map": {
+    "bbox": [
+     38,
+     7,
+     62,
+     33.5
+    ],
+    "highlight": [
+     "Iran",
+     "Yemen"
+    ],
+    "labels": [
+     {
+      "lon": 54,
+      "lat": 32.3,
+      "text": "Iran"
+     },
+     {
+      "lon": 42.5,
+      "lat": 20.3,
+      "text": "Saudi Arabia"
+     }
+    ],
+    "points": [
+     {
+      "lon": 56.4,
+      "lat": 26.6,
+      "label": "Hormuz",
+      "sub": "3 tankers reported hit",
+      "kind": "strike",
+      "dx": 22,
+      "dy": 30
+     },
+     {
+      "lon": 45.04,
+      "lat": 12.78,
+      "label": "Aden",
+      "sub": "2 missiles near airport",
+      "kind": "strike",
+      "dx": 34,
+      "dy": 2
+     },
+     {
+      "lon": 44.02,
+      "lat": 13.58,
+      "label": "Taiz",
+      "sub": "Aid cut off (WFP)",
+      "kind": "info",
+      "dx": -30,
+      "dy": -30
+     },
+     {
+      "lon": 46.7,
+      "lat": 24.96,
+      "label": "Riyadh",
+      "sub": "Intercepts (coalition claim)",
+      "kind": "strike",
+      "dx": 22,
+      "dy": 34
+     }
+    ],
+    "arrows": [
+     [
+      [
+       44.2,
+       15.5
+      ],
+      [
+       46.6,
+       24.8
+      ]
+     ]
+    ]
+   },
+   "headline": "\"Closed.\" [[Tankers hit.]]",
+   "bullets": [
+    "**Hormuz (Oct 17):** the IRGC navy says the strait is \"closed.\" UKMTO says a tanker was hit by an RPG from a small boat; three tankers reported hit, per social media (Al Jazeera).",
+    "**US:** Trump claims the blockade has stopped all Iranian ships transiting. Unconfirmed.",
+    "**Aden (Oct 16):** Yemen's government says the Houthis fired two missiles near the airport. The Houthis say they targeted a Saudi command post.",
+    "**Saudi:** coalition claims it downed missiles over Riyadh."
+   ],
+   "sources": "Sources: Al Jazeera, AFP, UKMTO, WFP. IRGC, Houthi, coalition and Trump statements are claims."
+  },
+  {
+   "type": "map",
+   "tag": "Gaza · West Bank",
+   "map": {
+    "bbox": [
+     33.2,
+     30.9,
+     37.2,
+     33.6
+    ],
+    "admin1": [
+     [
+      "Gaza Strip",
+      "Gaza Strip",
+      "#E5372B"
+     ],
+     [
+      "West Bank",
+      "West Bank",
+      "hatch"
+     ]
+    ],
+    "labels": [
+     {
+      "lon": 34.9,
+      "lat": 30.98,
+      "text": "Israel",
+      "size": 24
+     },
+     {
+      "lon": 36.7,
+      "lat": 31.3,
+      "text": "Jordan",
+      "size": 24
+     }
+    ],
+    "points": [
+     {
+      "lon": 34.47,
+      "lat": 31.52,
+      "label": "Gaza",
+      "sub": "340+ children (UNICEF)",
+      "kind": "strike",
+      "dx": -22,
+      "dy": -40
+     },
+     {
+      "lon": 35.25,
+      "lat": 32.2,
+      "label": "West Bank",
+      "sub": "Settler attacks, US reporter hurt",
+      "kind": "info",
+      "dx": 22,
+      "dy": 2
+     }
+    ]
+   },
+   "headline": "[[340+ children]] dead since the truce",
+   "bullets": [
+    "**UNICEF (Oct 16):** 340+ children killed since the ceasefire; 7 killed, 33 seriously hurt in the past two weeks. ~800,000 children displaced.",
+    "**Gaza (Oct 17):** one Palestinian reportedly killed near a Gaza City school. The IDF says it killed two Hamas operatives (Times of Israel).",
+    "**West Bank:** a US journalist was hurt in a settler attack in Abu Falah, reports say. Israel votes Oct 27."
+   ],
+   "sources": "Sources: UN News/UNICEF (Oct 16), Times of Israel (Oct 16-17). IDF statements are claims."
+  },
+  {
+   "type": "map",
+   "tag": "Sudan · Latest",
+   "map": {
+    "bbox": [
+     21.5,
+     8.5,
+     38.5,
+     20
+    ],
+    "highlight": [
+     "Sudan"
+    ],
+    "admin1": [
+     [
+      "Sudan",
+      "Southern Darfur",
+      "hatch"
+     ]
+    ],
+    "labels": [
+     {
+      "lon": 30,
+      "lat": 18.6,
+      "text": "Sudan"
+     },
+     {
+      "lon": 30,
+      "lat": 8.9,
+      "text": "South Sudan",
+      "size": 24
+     }
+    ],
+    "points": [
+     {
+      "lon": 24.88,
+      "lat": 12.05,
+      "label": "Nyala",
+      "sub": "Market strike: 30 dead (RSF claim)",
+      "kind": "strike",
+      "dx": 30,
+      "dy": 34
+     }
+    ]
+   },
+   "headline": "Market hit. [[Two accounts.]]",
+   "bullets": [
+    "**Nyala (Oct 16):** the RSF says an army drone hit a livestock market, killing **30 civilians** incl. 17 women and 5 children. The army says it killed dozens of RSF fighters in air strikes on RSF positions.",
+    "**Emergency Lawyers** say a Nyala market was hit by an army-linked drone. Neither side's account is verified (AFP via Al Jazeera).",
+    "**UN (Oct 16):** 20M people face acute hunger, 200,000 at catastrophe levels. A drone strike near the Ethiopian border killed 41 displaced people on Oct 10."
+   ],
+   "sources": "Sources: Al Jazeera/AFP (Oct 17), UN News (Oct 16). RSF and army statements are claims."
+  },
+  {
+   "type": "watch",
+   "tag": "What to watch",
+   "headline": "This [[week]]",
+   "bullets": [
+    "**Ukraine:** more grid strikes; winter blackouts as the UN calls October among the deadliest in years.",
+    "**Hormuz:** whether more tankers are hit after the IRGC's \"closed\" warning; US blockade claims.",
+    "**Yemen/Saudi:** Houthi fire at Aden and Riyadh; aid access to Taiz.",
+    "**Israel:** election Oct 27; Gaza winter shelter crisis."
+   ],
+   "cta": "Follow for the war brief every morning",
+   "cta_sub": "Turn on notifications · Share with someone who should know",
+   "sources": "WARDESK compiles reporting from named outlets. Casualty figures are as reported by the cited sources."
+  }
+ ],
+ "caption_instagram": "4 fronts. 24 hours. Here's what changed. ⬇️\n\n🇺🇦 UKRAINE (Day 1,697) — Russian attacks killed at least 8 and injured 60 across nine regions, Ukrainian officials say. Malls hit in Rivne and Sumy; power cut to 1M+ people before partial restoration (Al Jazeera/Reuters). UN monitors: 328 civilians killed in September, 85% more than a year earlier.\n\n🇮🇷 IRAN WAR (Day 232) — The IRGC says the Strait of Hormuz is \"closed.\" UKMTO says a tanker was hit by an RPG from a small boat; three tankers reported hit (Al Jazeera). Trump claims the US blockade has stopped all Iranian ships. Yemen's government says the Houthis fired two missiles near Aden airport.\n\n🇵🇸 GAZA / WEST BANK — UNICEF: 340+ children killed since the ceasefire (UN News).\n\n🇸🇩 SUDAN — RSF says an army drone killed 30 in a Nyala market; the army says it killed dozens of RSF fighters. Unverified (AFP).\n\nSwipe for maps + numbers ➡️\nWhich front are you watching most? Comment below 👇\n\nSources: Al Jazeera/Reuters/AFP, UN News, UNICEF, UKMTO, Times of Israel. Warring-party claims are unverified.\n\nFollow @wardesk_daily for the war brief every morning.\n\n#worldnews #ukraine #russia #iran #gaza #sudan #middleeast #geopolitics #breakingnews #news #war #houthis #yemen #straitofhormuz #wardesk",
+ "caption_facebook": "WORLD AT WAR: Saturday, Oct 17, 2026\n4 fronts, 24 hours. Here's what changed.\n\n🇺🇦 UKRAINE (Day 1,697)\n• Russian attacks killed at least 8 and injured 60 across nine regions, Ukrainian officials say (Al Jazeera/Reuters). Shopping centres were hit in Rivne and Sumy; drones torched ~10 trucks at a customs terminal in Kovel.\n• Ukraine's energy ministry says power was restored to 1M+ people. About 370,000 households in Volyn lost supply.\n• UN monitors: 328 civilians killed in September (85% more than Sept 2025); 2,570 killed Jan-Sept.\n\n🇮🇷 IRAN WAR (Day 232)\n• The IRGC navy says the Strait of Hormuz is \"closed\" and claims one tanker was on an \"unauthorised\" route. UKMTO says a tanker was hit by an RPG fired from a small boat. Three tankers reported hit, per social media (Al Jazeera).\n• Trump claims the US blockade has stopped all Iranian ships from transiting; unconfirmed.\n• Yemen's government says the Houthis fired two missiles near Aden airport; the Houthis say they targeted a Saudi command post. The coalition says it downed missiles and drones over Riyadh.\n• WFP: fighting has cut aid to ~800,000 people in Yemen, including 600,000+ in Taiz.\n\n🇵🇸 GAZA / WEST BANK\n• UNICEF: 340+ children killed since the ceasefire; ~800,000 children displaced.\n• Times of Israel: one Palestinian reportedly killed near a Gaza City school; the IDF says it killed two Hamas operatives. A US journalist was hurt in a settler attack in Abu Falah. Israel votes Oct 27.\n\n🇸🇩 SUDAN\n• The RSF says an army drone killed 30 civilians in a Nyala livestock market. The army says it killed dozens of RSF fighters in air strikes. Neither is verified (AFP via Al Jazeera).\n• UN: 20M face acute hunger; a drone strike near the Ethiopian border killed 41 displaced people on Oct 10.\n\nSources: Al Jazeera/Reuters/AFP, UN News, UNICEF, WFP, UKMTO, Times of Israel. Warring-party claims are unverified.\n\n👉 Follow WARDESK for the war brief every morning."
+}
