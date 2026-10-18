@@ -9,7 +9,7 @@ spec = {"date_label": "SAT · OCT 18, 2026", "out": "reel.mp4",
            "body": ["Line one (Reuters)", "Line two (AP)"], "source": "Sources: Reuters, AP"}]}
 Rules: first segment should be a clip; clips <= 10 s each (hard-capped); 2-5 segments; an end card is added automatically.
 Fonts: toolkit/fonts/Anton.ttf + Oswald.ttf (or fonts/ next to this file). Needs music.py (same folder) + pedalboard."""
-import os, sys, json, subprocess
+import os, sys, json, shutil, subprocess, tempfile
 from PIL import Image, ImageDraw, ImageFont
 D = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, D)
 import music
@@ -93,7 +93,7 @@ def clip(c, date, T, i):
     return out
 def main():
     sp = json.load(open(sys.argv[1])); date = sp["date_label"]
-    T = os.path.join(os.path.dirname(os.path.abspath(sp["out"])), "_etmp"); os.makedirs(T, exist_ok=True)
+    T = tempfile.mkdtemp(prefix="wardesk_reel_")  # scratch outside the repo
     segs, bounds, t = [], [], 0.0
     for i, s in enumerate(sp["segments"][:5]):
         if s["type"] == "clip":
@@ -113,5 +113,6 @@ def main():
          "-af", "afade=t=out:st=%.2f:d=1.4,loudnorm=I=-14:TP=-1.5:LRA=11" % (total - 1.4),
          "-c:v", "libx264", "-b:v", "4000k", "-preset", "slow", "-pix_fmt", "yuv420p",
          "-c:a", "aac", "-b:a", "192k", "-shortest", "-movflags", "+faststart", sp["out"]])
+    shutil.rmtree(T, ignore_errors=True)
     print(sp["out"], round(total, 2), "s", os.path.getsize(sp["out"]) // 1024, "KB")
 if __name__ == "__main__": main()

@@ -59,6 +59,21 @@ Text markup: `**bold**`, `[[red]]`, `{{amber}}`.
 (`dx < 0` right-aligns the label to the left of the dot; use `dx`/`dy` to fix overlapping labels);
 `arrows` [[[lon, lat], [lon, lat]]].
 
+## Footage opener and evening Reel
+
+`toolkit/footage/` holds the video kit (needs `pip install pedalboard --break-system-packages`, plus ffmpeg and Pillow):
+
+- `footage_build.py spec.json` makes the morning footage opener (1080×1350, ≤10 s per clip, original music from `music.py`).
+  It writes **two files**:
+  - `footage.mp4`: first item of the Instagram carousel; its bottom bar says "SWIPE FOR TODAY'S BRIEF".
+  - `footage_fb.mp4`: posted to Facebook as a standalone Page video; its bar says "FOLLOW WARDESK FOR THE DAILY WAR BRIEF".
+  **Never post `footage.mp4` to Facebook.** Facebook videos can't be swiped, so nothing posted to Facebook (videos, captions,
+  descriptions) should say "swipe".
+- `evening_reel.py spec.json` makes the evening 9:16 Reel (clip + text cards + end card).
+- `used.json` lists every clip already used, so clips aren't repeated.
+
+Both scripts put their scratch files in a system temp dir. Only the final `.mp4` files belong in `media/YYYY-MM-DD/`.
+
 ## Publishing
 
 1. Copy the PNGs to `media/YYYY-MM-DD/slide_01.png …`, commit, push to `main`.

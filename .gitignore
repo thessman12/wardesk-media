@@ -1,3 +1,5 @@
 toolkit/data/
 toolkit/out/
 __pycache__/
+media/**/_ftmp/
+media/**/_etmp/
