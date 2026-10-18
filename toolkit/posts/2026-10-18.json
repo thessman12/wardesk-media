@@ -1,0 +1,409 @@
+{
+ "date": "2026-10-18",
+ "date_label": "Sun · Oct 18, 2026",
+ "slides": [
+  {
+   "type": "cover",
+   "kicker": "Daily war brief",
+   "title": "World<br>at [[war]]",
+   "fronts": [
+    {
+     "k": "Ukraine · Day 1,698",
+     "v": "Ukraine hits St Petersburg: [[145 drones]] downed, 1 killed, officials say"
+    },
+    {
+     "k": "Iran war · Day 233",
+     "v": "IRGC says [[2 tankers]] burn after hitting mines in Hormuz"
+    },
+    {
+     "k": "Gaza · West Bank",
+     "v": "Settlers attack [[EU diplomats]] near Taybeh"
+    },
+    {
+     "k": "Sudan",
+     "v": "Army and RSF give [[two accounts]] of Nyala strikes"
+    }
+   ],
+   "sources": "Sources: Al Jazeera/AFP/Reuters, UKMTO, IOM, WHO, Gaza Health Ministry",
+   "map": {
+    "bbox": [
+     -5,
+     0,
+     72,
+     56
+    ],
+    "highlight": [
+     "Ukraine",
+     "Iran",
+     "Yemen",
+     "Sudan"
+    ],
+    "admin1": [
+     [
+      "Gaza Strip",
+      "Gaza Strip",
+      "#E5372B"
+     ]
+    ],
+    "labels": [
+     {
+      "lon": 31,
+      "lat": 52.5,
+      "text": "Ukraine",
+      "size": 22,
+      "color": "#F2F0EA"
+     },
+     {
+      "lon": 54,
+      "lat": 36.5,
+      "text": "Iran",
+      "size": 22,
+      "color": "#F2F0EA"
+     },
+     {
+      "lon": 30,
+      "lat": 20.5,
+      "text": "Sudan",
+      "size": 22,
+      "color": "#F2F0EA"
+     },
+     {
+      "lon": 48,
+      "lat": 12.2,
+      "text": "Yemen",
+      "size": 22,
+      "color": "#F2F0EA"
+     },
+     {
+      "lon": 28.5,
+      "lat": 32.3,
+      "text": "Gaza ▸",
+      "size": 22,
+      "color": "#F2F0EA"
+     }
+    ]
+   }
+  },
+  {
+   "type": "map",
+   "tag": "Ukraine · Day 1,698",
+   "map": {
+    "bbox": [
+     22,
+     44.5,
+     41,
+     53.5
+    ],
+    "highlight": [
+     "Ukraine"
+    ],
+    "admin1": [],
+    "labels": [
+     {
+      "lon": 38.5,
+      "lat": 52.2,
+      "text": "Russia"
+     },
+     {
+      "lon": 35,
+      "lat": 48.6,
+      "text": "Ukraine"
+     }
+    ],
+    "points": [
+     {
+      "lon": 25.33,
+      "lat": 50.75,
+      "label": "Volyn",
+      "sub": "Farm hit",
+      "kind": "strike",
+      "dx": -10,
+      "dy": -40
+     },
+     {
+      "lon": 28.47,
+      "lat": 49.23,
+      "label": "Vinnytsia",
+      "sub": "Substations hit",
+      "kind": "strike",
+      "dx": 0,
+      "dy": 34
+     },
+     {
+      "lon": 30.72,
+      "lat": 46.48,
+      "label": "Odesa",
+      "sub": "Substations hit",
+      "kind": "strike",
+      "dx": -20,
+      "dy": -38
+     }
+    ]
+   },
+   "headline": "2 killed. [[Grid hit again.]]",
+   "bullets": [
+    "**Overnight (Oct 18):** Russian strikes killed 2 and injured 12, incl. 2 children, and hit substations in four regions, Zelenskyy says.",
+    "**Last 7 days:** almost 2,700 attack drones, 1,700 glide bombs, 66 missiles, Zelenskyy says. He says Russia hit energy sites 76 times since Trump's \"energy ceasefire\".",
+    "**St Petersburg:** governor says a Ukrainian drone attack killed 1, hit an oil terminal and depot. Leningrad governor: 145 drones downed. Moscow claims 1,015 downed overnight."
+   ],
+   "sources": "Sources: Al Jazeera citing AFP/Reuters (Oct 18). Casualty and drone figures are from officials of each side, not independently verified."
+  },
+  {
+   "type": "stats",
+   "tag": "By the numbers",
+   "headline": "Today in [[4 numbers]]",
+   "stats": [
+    {
+     "n": "~2,700",
+     "l": "Russian attack drones in 7 days, Zelenskyy says (claim)",
+     "s": "Zelenskyy via Al Jazeera, Oct 18",
+     "amber": true
+    },
+    {
+     "n": "1,015",
+     "l": "Ukrainian drones \"neutralised\" overnight, Russia's defence ministry claims",
+     "s": "Russian MoD via Al Jazeera, Oct 18",
+     "amber": true
+    },
+    {
+     "n": "2.9M",
+     "l": "Barrels through Hormuz on Oct 11, down from 20.8M on Oct 8",
+     "s": "Kpler via Al Jazeera, Oct 18"
+    },
+    {
+     "n": "233,000",
+     "l": "People displaced in Yemen since fighting escalated, per IOM",
+     "s": "IOM via Al Jazeera, Oct 18"
+    }
+   ],
+   "sources": "Sources: Al Jazeera, Kpler, IOM. Drone counts are party claims and unverified."
+  },
+  {
+   "type": "map",
+   "tag": "Iran war · Day 233",
+   "map": {
+    "bbox": [
+     38,
+     7,
+     62,
+     33.5
+    ],
+    "highlight": [
+     "Iran",
+     "Yemen"
+    ],
+    "labels": [
+     {
+      "lon": 54,
+      "lat": 32.3,
+      "text": "Iran"
+     },
+     {
+      "lon": 42.5,
+      "lat": 20.3,
+      "text": "Saudi Arabia"
+     }
+    ],
+    "points": [
+     {
+      "lon": 56.4,
+      "lat": 26.6,
+      "label": "Hormuz",
+      "sub": "2 tankers on fire (IRGC)",
+      "kind": "strike",
+      "dx": 22,
+      "dy": 30
+     },
+     {
+      "lon": 49.13,
+      "lat": 14.54,
+      "label": "Mukalla",
+      "sub": "LNG tanker attacked (UKMTO)",
+      "kind": "strike",
+      "dx": 30,
+      "dy": -34
+     },
+     {
+      "lon": 44.02,
+      "lat": 13.58,
+      "label": "Taiz",
+      "sub": "Isolated (WHO)",
+      "kind": "info",
+      "dx": -34,
+      "dy": 10
+     },
+     {
+      "lon": 44.13,
+      "lat": 17.5,
+      "label": "Najran",
+      "sub": "Helicopter crash: 2 dead",
+      "kind": "strike",
+      "dx": -36,
+      "dy": -30
+     }
+    ],
+    "arrows": []
+   },
+   "headline": "Tankers [[burn.]] Yemen war widens.",
+   "bullets": [
+    "**Hormuz (Oct 18):** the IRGC says two tankers, ~2M barrels each, caught fire after hitting mines on a route Iran had not authorised. Ship names unconfirmed (Al Jazeera).",
+    "**Traffic:** Kpler: 2.9M barrels crossed on Oct 11 vs 20.8M on Oct 8. Trump says he expects a deal after the Nov 3 midterms.",
+    "**Yemen:** UKMTO says armed men on a skiff attacked an LNG tanker off Mukalla. A coalition helicopter crashed in Najran (\"technical malfunction\", 2 dead); the Houthis claim a shoot-down."
+   ],
+   "sources": "Sources: Al Jazeera, UKMTO, WHO, IOM, Kpler. IRGC, Houthi, coalition and Trump statements are claims."
+  },
+  {
+   "type": "map",
+   "tag": "Gaza · West Bank",
+   "map": {
+    "bbox": [
+     33.2,
+     30.9,
+     37.2,
+     33.6
+    ],
+    "admin1": [
+     [
+      "Gaza Strip",
+      "Gaza Strip",
+      "#E5372B"
+     ],
+     [
+      "West Bank",
+      "West Bank",
+      "hatch"
+     ]
+    ],
+    "labels": [
+     {
+      "lon": 34.9,
+      "lat": 30.98,
+      "text": "Israel",
+      "size": 24
+     },
+     {
+      "lon": 36.7,
+      "lat": 31.3,
+      "text": "Jordan",
+      "size": 24
+     }
+    ],
+    "points": [
+     {
+      "lon": 34.47,
+      "lat": 31.52,
+      "label": "Gaza",
+      "sub": "1,511 killed since truce",
+      "kind": "strike",
+      "dx": -22,
+      "dy": -40
+     },
+     {
+      "lon": 35.28,
+      "lat": 31.95,
+      "label": "Taybeh",
+      "sub": "EU diplomats attacked",
+      "kind": "info",
+      "dx": 26,
+      "dy": -30
+     },
+     {
+      "lon": 35.1,
+      "lat": 31.4,
+      "label": "Masafer Yatta",
+      "sub": "6 hurt (PRCS)",
+      "kind": "info",
+      "dx": 26,
+      "dy": -36
+     }
+    ]
+   },
+   "headline": "Diplomats [[attacked.]] Gaza hit.",
+   "bullets": [
+    "**Gaza (Oct 17):** Israeli drone strikes killed at least 6 Palestinians, per medical workers (Al Jazeera). Gaza Health Ministry: 1,511 killed since the Oct 2025 ceasefire; 74,469 since Oct 2023.",
+    "**UNICEF:** 340+ children killed since the ceasefire (Oct 16).",
+    "**West Bank:** settlers attacked European diplomats near Taybeh, incl. a French mayor, Belgium's FM says. Netanyahu's office calls reports \"alleged\". Palestine Red Crescent: 6 hurt in Ma'in.",
+    "**Politics:** Israel votes Oct 27."
+   ],
+   "sources": "Sources: Al Jazeera/AFP/AP (Oct 17), UNICEF. Health ministry and Israeli statements are claims."
+  },
+  {
+   "type": "map",
+   "tag": "Sudan · Latest",
+   "map": {
+    "bbox": [
+     21.5,
+     8.5,
+     38.5,
+     20
+    ],
+    "highlight": [
+     "Sudan"
+    ],
+    "admin1": [
+     [
+      "Sudan",
+      "Southern Darfur",
+      "hatch"
+     ]
+    ],
+    "labels": [
+     {
+      "lon": 30,
+      "lat": 18.6,
+      "text": "Sudan"
+     },
+     {
+      "lon": 30,
+      "lat": 8.9,
+      "text": "South Sudan",
+      "size": 24
+     }
+    ],
+    "points": [
+     {
+      "lon": 24.88,
+      "lat": 12.05,
+      "label": "Nyala",
+      "sub": "Market strike: 30 dead (RSF claim)",
+      "kind": "strike",
+      "dx": 30,
+      "dy": 34
+     },
+     {
+      "lon": 32.53,
+      "lat": 15.5,
+      "label": "Khartoum",
+      "sub": "8 of 30 drug plants reopened",
+      "kind": "info",
+      "dx": -30,
+      "dy": -34
+     }
+    ]
+   },
+   "headline": "Nyala: [[two accounts.]] Medicine gap.",
+   "bullets": [
+    "**Nyala (Oct 16-17):** the RSF says an army drone hit a livestock market, killing **30** civilians. The army says it killed dozens of RSF fighters at positions. Emergency Lawyers say a market was hit by an army-linked drone. Unverified (AFP).",
+    "**Al Jazeera's Khartoum reporter:** fighting has \"intensified\".",
+    "**Medicine:** only 8 of 30 shuttered Khartoum drug factories have resumed, per Sudan's medicines board. Pound: ~600/USD pre-war, ~9,300 on black market."
+   ],
+   "sources": "Sources: Al Jazeera/AFP (Oct 17-18). RSF and army statements are claims."
+  },
+  {
+   "type": "watch",
+   "tag": "What to watch",
+   "headline": "This [[week]]",
+   "bullets": [
+    "**Ukraine:** Kyiv says it will resume refinery strikes; US sanctions waiver runs 60 days.",
+    "**Hormuz:** more mine or tanker incidents; Trump eyes a deal after Nov 3.",
+    "**Yemen/Saudi:** \"Dawn of Yemen\" offensive; Taiz hospitals running low on fuel.",
+    "**Israel/West Bank:** election Oct 27; reaction to the diplomat attack."
+   ],
+   "cta": "Follow for the war brief every morning",
+   "cta_sub": "Turn on notifications · Share with someone who should know",
+   "sources": "WARDESK compiles reporting from named outlets. Casualty figures are as reported by the cited sources."
+  }
+ ],
+ "caption_instagram": "4 fronts. 24 hours. Here's what changed. ⬇️\n\n🇺🇦 UKRAINE (Day 1,698) — Russian strikes killed 2 and hurt 12 overnight, hitting substations in four regions, Zelenskyy says. A Ukrainian drone attack on St Petersburg killed 1 and hit an oil terminal, the governor says; Moscow claims 1,015 drones downed (Al Jazeera/AFP/Reuters).\n\n🇮🇷 IRAN WAR (Day 233) — The IRGC says two tankers caught fire after hitting mines in Hormuz; ships unconfirmed. Kpler: 2.9M barrels crossed Oct 11 vs 20.8M Oct 8. In Yemen, IOM says 233,000+ are displaced.\n\n🇵🇸 GAZA / WEST BANK — Gaza Health Ministry: 1,511 killed since the ceasefire. Settlers attacked European diplomats near Taybeh (Al Jazeera/AFP).\n\n🇸🇩 SUDAN — RSF says an army drone killed 30 in a Nyala market; the army says it hit RSF fighters. Unverified (AFP).\n\n🎥 Slide 1: real footage (U.S. Marine Corps via DVIDS, Oct 12-13 training). Swipe for maps + numbers ➡️\nWhich front are you watching most? Comment below 👇\n\nSources: Al Jazeera/AFP/Reuters, UKMTO, Kpler, IOM, WHO. Warring-party claims are unverified.\n\n🎥 Video: Oct 12-13, 2026, U.S. Marines of the 26th MEU train to board and search ships in Virginia (training, not combat). Credit: U.S. Marine Corps via DVIDS, public domain.\n\nFollow @wardesk_daily for the war brief every morning.\n\n#worldnews #ukraine #russia #iran #gaza #sudan #middleeast #geopolitics #breakingnews #news #war #houthis #yemen #straitofhormuz #wardesk",
+ "caption_facebook": "WORLD AT WAR: Sunday, Oct 18, 2026\n4 fronts, 24 hours. Here's what changed.\n\n🇺🇦 UKRAINE (Day 1,698)\n• Russian strikes killed 2 and injured 12, incl. 2 children, and hit substations in Vinnytsia, Zhytomyr, Khmelnytskyi and Odesa regions, Zelenskyy says. Over 7 days Russia launched almost 2,700 drones, 1,700 bombs and 66 missiles, he says.\n• A Ukrainian drone attack on St Petersburg killed 1 and injured 5, the governor says; oil sites burned. Leningrad's governor says 145 drones were downed; Moscow's ministry claims 1,015 overnight (Al Jazeera citing AFP/Reuters).\n• Rubio says Ukraine has no Starshield access; Trump waived Russia energy sanctions for 60 days.\n\n🇮🇷 IRAN WAR (Day 233)\n• The IRGC says two tankers caught fire after hitting mines in Hormuz; ship names unconfirmed. Kpler: 2.9M barrels crossed Oct 11 vs 20.8M on Oct 8.\n• Yemen: UKMTO says armed men on a skiff attacked an LNG tanker off Mukalla. IOM: 233,000+ displaced; WHO: Taiz city functionally isolated.\n\n🇵🇸 GAZA / WEST BANK\n• Israeli drone strikes killed at least 6 in Gaza, medics say. Health Ministry: 1,511 killed since the Oct 2025 ceasefire.\n• Settlers attacked European diplomats near Taybeh, Belgium's FM says; Netanyahu's office calls reports \"alleged\".\n\n🇸🇩 SUDAN\n• The RSF says an army drone killed 30 civilians in a Nyala market; the army says it killed dozens of RSF fighters. Unverified (AFP via Al Jazeera).\n\nSources: Al Jazeera/AFP/Reuters, UKMTO, Kpler, IOM, WHO. Warring-party claims are unverified.\n\n👉 Follow WARDESK for the war brief every morning."
+}
