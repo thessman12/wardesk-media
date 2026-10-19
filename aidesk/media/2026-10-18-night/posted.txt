@@ -1,0 +1,5 @@
+Instagram Reel: container 18147774838525290, media 18464996797142395, https://www.instagram.com/reel/DeqMlw5FUxW/
+Instagram carousel (Zapier publish_media_v2): id 18419932960152423
+Facebook video (Aidesk): id 1129941039961525
+Facebook photos (Aidesk): id 1377942015402865_122109610569502165
+Errors: first Reel container call with JSON body failed ("image_url is required"); succeeded when params sent as querystring. No duplicate posts.
