@@ -1,0 +1,5 @@
+Manual run 2026-10-18 (Seneca ep 2, post.json dated 2026-10-19)
+Instagram carousel: media 18098639183393235 https://www.instagram.com/p/Dep-l2qjcNp/ (children: video 17886470868523240, 17886470973523240, 17886471024523240, 17886471060523240, 17886471135523240, 17886471114523240)
+Facebook photo post: 1324506474087675_122095576785520827
+Facebook video: 1096340623277812
+Errors: first attempts sent params in JSON body (ignored by API; "image_url is required"), one call denied by permission classifier, m_05 container failed once on fetch; all retried once via querystring, succeeded. No partial posts.
