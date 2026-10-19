@@ -1,8 +1,12 @@
-https://www.dvidshub.net 200
-https://api.dvidshub.net 200
-https://commons.wikimedia.org 301
-https://upload.wikimedia.org 301
-https://www.youtube.com 200
-https://www.mil.gov.ua 404
-https://www.idf.il 200
-https://archive.org 200
+Checked 2026-10-19 02:40 UTC (Sun Oct 18 21:40 CDT)
+dvidshub.net | 200 (video pages OK; search page returns 202/empty body = bot challenge) | yes (via direct /video/<id> pages) | DVIDS 1026628 "Update from CENTCOM Commander", taken/posted 2026-10-16, 4:11, Tampa; mp4 https://d34w7g4gy10iej.cloudfront.net/video/2610/DOD_112076565/DOD_112076565.mp4 HEAD 200, 245 MB | DoD public domain; page lists "Copyright Information" link, check per item. Search/discovery by query NOT working from here.
+nato.int multimedia videos | 200 (370 KB) but listing is JS-rendered, no item links/mp4 in HTML | partial/no | none found | "free for editorial" note not visible in served HTML; unverified
+defenceimagery.mod.uk | 200 home page (89 KB); /fotoweb archive path guessed 404 | partial/no | none found (archive URLs unknown) | OGL text not found in HTML
+commons.wikimedia.org API (WARDESK-bot UA) | 200, no 429 | yes | File:Attack on Presidium of National Academy of Sciences of Ukraine, 2026-09-28.webm (2026-09-28, surveillance cam of strike aftermath; not graphic-checked) | Public domain (extmetadata); direct upload.wikimedia.org URL provided by API
+upload.wikimedia.org (root) | 301 (file URLs are served via API-provided links) | yes (not downloaded) | see above | n/a
+media.un.org/unifeed | 200 | yes | UNifeed 261017c "IMF / Western Hemisphere press briefing" 2026-10-17 (not war, demonstrates access); mp4 https://s3.amazonaws.com/downloads.unmultimedia.org/tv/unifeed/00/2026/10/mp4/unifeed261017c_H264.mp4 | "UNifeed materials are available free of charge for news purposes only. UNifeed materials may not be sold or redistributed to third parties without the prior written consent of the UN... All users must provide due credit to the United Nations". NOTE: "news purposes only"; download requires accepting terms (form).
+president.gov.ua/en | 403 Access Denied (blocked) | no | - | - (needs allowing)
+en.kremlin.ru | 200 | yes | news page http://en.kremlin.ru/events/president/news/81024 (2026-10-18); /events/president/videos 404, no mp4 found | "All content on this site is licensed under Creative Commons Attribution 4.0 International." (en.kremlin.ru/about/copyrights)
+defense.gov | 403 Access Denied (blocked) | no | - | - (needs allowing)
+wvs.earthdata.nasa.gov | 200; snapshot API returned 400x240 JPEG (MODIS Terra, 2026-10-17, Gulf bbox) | yes | Worldview snapshot API | NASA imagery public domain
+dataspace.copernicus.eu | 200 (homepage only; no imagery fetched) | partial | - | free/open Sentinel data; credit "Contains modified Copernicus Sentinel data"
