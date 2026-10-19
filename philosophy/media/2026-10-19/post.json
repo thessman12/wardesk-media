@@ -1,0 +1,97 @@
+{
+ "ep": 3,
+ "date": "2026-10-19",
+ "name": "Socrates",
+ "theme": "on self-examination",
+ "dates": "c. 470 – 399 BC",
+ "quote": "The unexamined life is not worth living.",
+ "source": "Plato, Apology 38a",
+ "hook": "Are you living on autopilot?",
+ "script": "I am Socrates. Athens put me on trial for asking too many questions. Some said I should simply keep quiet. I told them: The unexamined life is not worth living. Swipe and I will show you how to examine yours.",
+ "voice": "Tom",
+ "narration": "narration.mp3",
+ "portrait": "e1.jpg",
+ "portrait_focus": 0.35,
+ "morning_slides": [
+  {
+   "type": "quote",
+   "kicker": "The idea"
+  },
+  {
+   "type": "text",
+   "kicker": "What he meant",
+   "title": "A life you never question isn’t fully yours.",
+   "body": [
+    "Most of what we believe, want and fear was handed to us: by parents, friends, ads, habit. Socrates thought a good life starts when you stop running on those defaults and ask why.",
+    "At his trial he said that talking every day about how to live well was the greatest good a person could have. He would rather die than stop asking."
+   ]
+  },
+  {
+   "type": "text",
+   "kicker": "The context",
+   "title": "Who was Socrates?",
+   "body": [
+    "An Athenian philosopher who spent his life questioning people in the marketplace. He wrote nothing; we know him mostly through his student Plato.",
+    "In 399 BC, at about 70, he was tried for impiety and corrupting the young, and sentenced to death. Plato’s Apology records his defense."
+   ],
+   "image": "portrait"
+  },
+  {
+   "type": "steps",
+   "kicker": "Try this today",
+   "title": "Tonight, pick one belief or habit and ask:",
+   "steps": [
+    "Why do I believe this? Where did it come from?",
+    "What would change if I were wrong?",
+    "Knowing what I know now, would I still choose it?"
+   ]
+  },
+  {
+   "type": "cta",
+   "kicker": "Your turn",
+   "title": "What’s one belief you’ve never questioned?",
+   "body": "Tell us below. The best answers start a real conversation."
+  }
+ ],
+ "evening_slides": [
+  {
+   "type": "image",
+   "image": "e3.jpg",
+   "style": "quote",
+   "text": "The unexamined life is not worth living.",
+   "sub": "Socrates · Plato, Apology 38a",
+   "kicker": "Evening reflection",
+   "pos": "bottom"
+  },
+  {
+   "type": "image",
+   "image": "e2.jpg",
+   "style": "line",
+   "text": "“Know thyself” was carved at the temple of Apollo at Delphi. Socrates made it a way of life.",
+   "kicker": "Socrates",
+   "pos": "bottom"
+  },
+  {
+   "type": "image",
+   "image": "e1.jpg",
+   "style": "line",
+   "text": "Every answer you examine becomes your own.",
+   "kicker": "Tonight",
+   "pos": "bottom"
+  },
+  {
+   "type": "image",
+   "image": "e2.jpg",
+   "style": "small",
+   "text": "Tonight’s question: what did you do today only because you’ve always done it?",
+   "sub": "Answer in the comments",
+   "kicker": "Your turn",
+   "pos": "bottom",
+   "focus": 0.3
+  }
+ ],
+ "caption_morning_ig": "Are you living on autopilot? 🏛️\n\nAt his trial in 399 BC, Socrates was told he could simply keep quiet. Instead he said: “The unexamined life is not worth living.”\n\nSwipe for what he meant, why it cost him his life, and 3 questions to ask yourself tonight ➡️\n\n💬 What’s one belief you’ve never questioned? Tell us below.\n🔖 Save this for your next big decision.\n\nAncient Wisdom. Modern Minds. Follow @thephilosophypage for a new idea every morning and an evening reflection every night.\n\n#ThePhilosophyProject #Socrates #Plato #Philosophy #AncientGreece #AncientWisdom #KnowThyself #SelfReflection #Mindset #DailyWisdom #Quotes #SelfImprovement #CriticalThinking #Stoicism #WisdomQuotes",
+ "caption_morning_fb": "Are you living on autopilot?\n\nAt his trial in Athens in 399 BC, Socrates refused to stop questioning people, even to save his life. He told the jury: “The unexamined life is not worth living.” (Plato, Apology 38a)\n\nWhat he meant: much of what we believe and want was handed to us by habit and the people around us. A good life starts when we ask why.\n\nTonight, pick one belief or habit and ask:\n1. Why do I believe this? Where did it come from?\n2. What would change if I were wrong?\n3. Knowing what I know now, would I still choose it?\n\nWhat’s one belief you’ve never questioned? Tell us in the comments.\n\nAncient Wisdom. Modern Minds. — The Philosophy Project",
+ "caption_evening_ig": "Tonight’s reflection 🌙\n\n“The unexamined life is not worth living.” — Socrates (Plato, Apology 38a)\n\nWhat did you do today only because you’ve always done it? Name it in the comments.\n\nAncient Wisdom. Modern Minds. Follow @thephilosophypage\n\n#ThePhilosophyProject #Socrates #EveningReflection #KnowThyself #AncientWisdom #Philosophy #SelfReflection #Mindfulness #DailyWisdom",
+ "caption_evening_fb": "Tonight’s reflection\n\n“The unexamined life is not worth living.” — Socrates (Plato, Apology 38a)\n\nWhat did you do today only because you’ve always done it? Name it in the comments.\n\nAncient Wisdom. Modern Minds. — The Philosophy Project"
+}
