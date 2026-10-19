@@ -10,3 +10,30 @@ en.kremlin.ru | 200 | yes | news page http://en.kremlin.ru/events/president/news
 defense.gov | 403 Access Denied (blocked) | no | - | - (needs allowing)
 wvs.earthdata.nasa.gov | 200; snapshot API returned 400x240 JPEG (MODIS Terra, 2026-10-17, Gulf bbox) | yes | Worldview snapshot API | NASA imagery public domain
 dataspace.copernicus.eu | 200 (homepage only; no imagery fetched) | partial | - | free/open Sentinel data; credit "Contains modified Copernicus Sentinel data"
+
+## DVIDS API TEST
+Timestamp UTC: 2026-10-19T04:05:46Z
+search q=centcom HTTP 200 
+  video:1026628 | Update from CENTCOM Commander | 2026-10-16 | 251 s
+  video:1026100 | U.S. Forces Disable Cargo Vessel Attempting to Violate Blockade | 2026-10-10 | 12 s
+  video:1026201 | F-16 and F-35 aircraft conduct night takeoffs in CENTCOM | 2026-10-07 | 24 s
+  video:1026387 | U.S. Forces Destroy Iranian-affiliated Dhow Conducting Surveillance and Targeting U.S. Navy Ships | 2026-10-06 | 23 s
+  video:1025832 | KC-135 refuels F-16s for continued regional support | 2026-10-03 | 16 s
+search q=ukraine HTTP 200 
+  video:1026580 | 86th IBCT (MTN) Relinguishes Command of JMTG-U | 2026-10-14 | 95 s
+  video:1025442 | LSCO Conditions-Mass vs Precision 2/12- ThreatMinutes | 2026-10-01 | 60 s
+  video:1024736 | Latvian soldiers and civilians team up for large-scale national defence exercise | 2026-09-16 | 285 s
+search q=red%20sea HTTP 200 
+  video:1015799 | B-Roll: Therapy dogs visit Pacific Warfighting Center for morale boost during RIMPAC 2026 | 2026-07-22 | 106 s
+  video:1013678 | INR 250 NYC Red Steps | 2026-07-05 | 36 s
+  video:1010867 | B-Roll: 207th MIB(T) Visits Utah Beach during D-Day 82 | 2026-06-02 | 250 s
+asset video:1026628 HTTP 200 
+mp4s: ['https://d34w7g4gy10iej.cloudfront.net/video/2610/DOD_112076565/DOD_112076565-1024x576-2000k.mp4', 'https://d34w7g4gy10iej.cloudfront.net/video/2610/DOD_112076565/DOD_112076565-1280x720-3000k.mp4', 'https://d34w7g4gy10iej.cloudfront.net/video/2610/DOD_112076565/DOD_112076565-1920x1080-6000k.mp4', 'https://d34w7g4gy10iej.cloudfront.net/video/2610/DOD_112076565/DOD_112076565-1920x1080-9000k.mp4', 'https://d34w7g4gy10iej.cloudfront.net/video/2610/DOD_112076565/DOD_112076565-256x144-1000k.mp4']
+HEAD https://d34w7g4gy10iej.cloudfront.net/video/2610/DOD_112076565/DOD_112076565-1024x576-2000k.mp4 -> HTTP/1.1 200 Connection Established
+HEAD https://d34w7g4gy10iej.cloudfront.net/video/2610/DOD_112076565/DOD_112076565-1280x720-3000k.mp4 -> HTTP/1.1 200 Connection Established
+mp4 HEAD (1024x576):
+HTTP/1.1 200 Connection Established
+HTTP/2 200 
+content-type: video/mp4
+content-length: 46514169
+Verdict: API key works (HTTP 200 on search and asset).
