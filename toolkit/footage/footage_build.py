@@ -9,6 +9,8 @@ Rules: 1-3 clips, each dur <= 10 s (hard-capped). Output 1080x1350 MP4 with orig
 Writes two files: "out" (Instagram carousel item, bottom bar "SWIPE FOR TODAY'S BRIEF") and
 "out_fb" (default: <out>_fb.mp4; standalone Facebook video, bar "FOLLOW WARDESK FOR THE DAILY WAR BRIEF" -
 Facebook videos can't be swiped). Scratch files go to a temp dir outside the repo.
+Optional "today": one line (~60 chars) summing up the day's top story, shown above the bottom bar on every clip,
+e.g. "Ukraine strikes St Petersburg oil terminal; Iran says 2 tankers hit mines".
 Needs fonts/Anton.ttf + fonts/Oswald.ttf next to this file (or in toolkit/fonts) and music.py."""
 import os, sys, json, shutil, subprocess, tempfile
 from PIL import Image, ImageDraw, ImageFont
@@ -29,7 +31,7 @@ def wrap(text, font, maxw):
     return lines
 CTA_IG = "SWIPE FOR TODAY'S BRIEF  »"
 CTA_FB = "FOLLOW WARDESK FOR THE DAILY WAR BRIEF"
-def overlay(out, date, kicker, headline, credit, cta):
+def overlay(out, date, kicker, headline, credit, cta, today=""):
     o = Image.new("RGBA", (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(o)
     grad = Image.new("RGBA", (W, 420), (0, 0, 0, 0)); g = ImageDraw.Draw(grad)
     for y in range(420): g.line([0, y, W, y], fill=(11, 13, 16, int(240 * max(0, 1 - y / 420) ** 0.5)))
@@ -40,16 +42,23 @@ def overlay(out, date, kicker, headline, credit, cta):
     d.rectangle([50, 120, 50 + kw, 170], fill=RED); d.text((68, 123), kicker.upper(), font=f, fill=TXT)
     fh = A(78); y = 190
     for ln in wrap(headline.upper(), fh, W - 100)[:2]: d.text((50, y), ln, font=fh, fill=TXT); y += 90
-    vb = (H + 608) // 2 + 24; fc = O(32); lines = wrap(credit, fc, W - 140)[:4]
+    vb = (H + 608) // 2 + 24; fc = O(32); lines = wrap(credit, fc, W - 140)[:3 if today else 4]
     d.rectangle([50, vb, 57, vb + 46 * len(lines) - 8], fill=AMBER)
     for i, ln in enumerate(lines): d.text((76, vb + i * 46), ln, font=fc, fill=TXT)
+    if today:
+        lab = "TODAY  "; ty = H - 92 - 66
+        for size in (34, 31, 28):
+            ft = O(size)
+            if ft.getlength(lab) + ft.getlength(today) <= W - 100: break
+        while ft.getlength(lab) + ft.getlength(today) > W - 100: today = today[:-2].rstrip() + "…"
+        d.text((50, ty), lab, font=ft, fill=AMBER); d.text((50 + ft.getlength(lab), ty), today, font=ft, fill=TXT)
     fs = O(34)
     d.rectangle([0, H - 92, W, H], fill=RED); d.text(((W - fs.getlength(cta)) / 2, H - 80), cta, font=fs, fill=TXT)
     o.save(out)
 def render_video(sp, clips, cta, T, tag, music_wav, total, out_path):
     outs = []
     for i, c in enumerate(clips):
-        ov = f"{T}/{tag}_o{i}.png"; overlay(ov, sp["date_label"], c["kicker"], c["headline"], c["credit"], cta)
+        ov = f"{T}/{tag}_o{i}.png"; overlay(ov, sp["date_label"], c["kicker"], c["headline"], c["credit"], cta, sp.get("today", ""))
         out = f"{T}/{tag}_s{i}.mp4"; n = int(round(c["dur"] * FPS))
         fc = (f"[0:v]trim=start={c['start']}:duration={c['dur']},setpts=PTS-STARTPTS,fps={FPS},split[a][b];"
               f"[a]scale=-2:{H},crop={W}:{H},boxblur=30:4,eq=brightness=-0.3[bg];[b]scale={W}:-2[fg];"

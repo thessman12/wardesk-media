@@ -53,6 +53,13 @@ Slide types, in the usual order:
 
 Text markup: `**bold**`, `[[red]]`, `{{amber}}`.
 
+Slides carry no "01 / 07" counter, because on Instagram the footage video comes first and the count would be wrong.
+The cover says "FULL BRIEF INSIDE" rather than "swipe", because the same image also goes to the Facebook photo post.
+
+**Map rule:** every place named in a map slide's bullets must be on that map as a point. Widen the `bbox` to include it.
+If one far-off place would shrink the main area too much, add an edge `label` pointing to it instead (e.g. `"ST PETERSBURG ↑ 900 KM"`).
+The build prints `WARNING: … outside bbox` for any point that falls off the map; fix every warning before publishing.
+
 `map` object: `bbox` [lon0, lat0, lon1, lat1]; `highlight` (country `ADMIN` names from countries.geojson);
 `admin1` [[admin, name, colour-or-"hatch"]] (names from admin1.geojson, e.g. `["Ukraine","Donets'k","hatch"]`);
 `labels` [{lon, lat, text, size?, color?}]; `points` [{lon, lat, label, sub?, kind: "strike"|"info", dx?, dy?}]
@@ -67,6 +74,7 @@ Text markup: `**bold**`, `[[red]]`, `{{amber}}`.
   It writes **two files**:
   - `footage.mp4`: first item of the Instagram carousel; its bottom bar says "SWIPE FOR TODAY'S BRIEF".
   - `footage_fb.mp4`: posted to Facebook as a standalone Page video; its bar says "FOLLOW WARDESK FOR THE DAILY WAR BRIEF".
+  Optional spec field `"today"`: a one-line summary of the day's top story (~60 chars), shown above the bottom bar.
   **Never post `footage.mp4` to Facebook.** Facebook videos can't be swiped, so nothing posted to Facebook (videos, captions,
   descriptions) should say "swipe".
 - `evening_reel.py spec.json` makes the evening 9:16 Reel (clip + text cards + end card).

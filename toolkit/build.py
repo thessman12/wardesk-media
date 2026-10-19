@@ -71,7 +71,7 @@ def logo():
 
 def frame(inner, i, n, date_label, sources):
     return f"""<!doctype html><html><head><meta charset="utf-8"><style>{CSS}</style></head><body>
-<div class="slide"><div class="top">{logo()}<div class="meta">{E(date_label)}<br>{i:02d} / {n:02d}</div></div>
+<div class="slide"><div class="top">{logo()}<div class="meta">{E(date_label)}</div></div>
 {inner}
 <div class="foot"><div class="src">{E(sources)}</div><div class="h">{E(BRAND['handle'])}</div></div></div></body></html>"""
 
@@ -86,6 +86,14 @@ def rich(t):
     return t
 
 
+def check_map(m, where):
+    # Every point must be inside the map frame, or it silently disappears off the edge.
+    lo0, la0, lo1, la1 = m["bbox"]
+    for pt in m.get("points", []):
+        if not (lo0 <= pt["lon"] <= lo1 and la0 <= pt["lat"] <= la1):
+            print(f"WARNING: {where}: point '{pt.get('label', '?')}' ({pt['lon']}, {pt['lat']}) is outside bbox {m['bbox']} - widen the bbox")
+
+
 def slide_html(s, i, n, date_label):
     k = s["type"]
     if k == "cover":
@@ -96,9 +104,10 @@ def slide_html(s, i, n, date_label):
             cm = '<div class="coverMap">' + map_svg(tuple(m["bbox"]), W - 116, 296, highlight=m.get("highlight", []),
                  highlight_admin1=[tuple(x) for x in m.get("admin1", [])], points=m.get("points", []), labels=m.get("labels", [])) + '</div>'
         inner = f"""<div class="cover"><span class="tag"><span class="dot"></span>{E(s['kicker'])}</span>
-<div class="big">{rich(s['title'])}</div><div class="fronts">{fr}</div>{cm}</div><div class="swipe">SWIPE →</div>"""
+<div class="big">{rich(s['title'])}</div><div class="fronts">{fr}</div>{cm}</div><div class="swipe">FULL BRIEF INSIDE</div>"""
     elif k == "map":
         m = s["map"]
+        check_map(m, f"slide {i} ({s.get('tag', '')})")
         svg = map_svg(tuple(m["bbox"]), W - 112 - 4, 556, highlight=m.get("highlight", []),
                       highlight_admin1=[tuple(x) for x in m.get("admin1", [])], points=m.get("points", []),
                       labels=m.get("labels", []), arrows=[{"from": tuple(a[0]), "to": tuple(a[1])} for a in m.get("arrows", [])])
