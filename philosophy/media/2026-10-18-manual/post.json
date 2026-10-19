@@ -1,0 +1,111 @@
+{
+ "ep": 2,
+ "name": "Seneca",
+ "theme": "on fear",
+ "dates": "c. 4 BC – AD 65",
+ "quote": "We suffer more often in imagination than in reality.",
+ "source": "Letters to Lucilius, Letter 13",
+ "hook": "Most of what you fear will never happen.",
+ "script": "I am Seneca. Nearly two thousand years ago, I wrote to a friend: We suffer more often in imagination than in reality. Most of what you dread will never happen. Swipe, and I will show you how to stop it.",
+ "voice": "Tom",
+ "narration": "narration.mp3",
+ "portrait": "portrait.jpg",
+ "portrait_focus": 0.2,
+ "morning_slides": [
+  {
+   "type": "quote",
+   "kicker": "The idea"
+  },
+  {
+   "type": "text",
+   "kicker": "What he meant",
+   "title": "Your mind rehearses disasters that never arrive.",
+   "body": [
+    "Seneca noticed we are rarely crushed by what is actually happening. We are worn down by what we imagine might happen: the bad news, the hard conversation, the worst case.",
+    "In the same letter he wrote: “Some things torment us more than they ought; some torment us before they ought; and some torment us when they ought not to torment us at all.”"
+   ]
+  },
+  {
+   "type": "text",
+   "kicker": "The context",
+   "title": "Who was Seneca?",
+   "body": [
+    "A Roman Stoic philosopher, playwright and statesman, and adviser to Emperor Nero.",
+    "Late in life he wrote 124 letters to his friend Lucilius: practical advice on living well. Letter 13 is about fear."
+   ],
+   "image": "portrait"
+  },
+  {
+   "type": "steps",
+   "kicker": "Try this today",
+   "title": "Next time your mind starts to spiral:",
+   "steps": [
+    "Name the fear in one sentence. Write it down.",
+    "Ask Seneca’s question: is this happening now, or only in my head?",
+    "If it is real, take one small action. If it is imagined, let it wait until it arrives."
+   ]
+  },
+  {
+   "type": "cta",
+   "kicker": "Your turn",
+   "title": "What is one fear that never came true?",
+   "body": "Tell us below. Someone scrolling past needs to read it today."
+  }
+ ],
+ "evening_slides": [
+  {
+   "type": "image",
+   "image": "e1.jpg",
+   "style": "quote",
+   "text": "We suffer more often in imagination than in reality.",
+   "sub": "Seneca · Letter 13",
+   "kicker": "Evening reflection",
+   "pos": "bottom"
+  },
+  {
+   "type": "image",
+   "image": "e2.jpg",
+   "style": "line",
+   "text": "Some things torment us more than they ought; some before they ought; and some when they ought not to torment us at all.",
+   "kicker": "Seneca",
+   "pos": "bottom"
+  },
+  {
+   "type": "image",
+   "image": "library_frame.png",
+   "style": "line",
+   "text": "Do not be unhappy before the crisis comes.",
+   "sub": "Seneca · Letter 13",
+   "kicker": "Seneca",
+   "pos": "bottom"
+  },
+  {
+   "type": "image",
+   "image": "e3.jpg",
+   "style": "line",
+   "text": "Most storms pass without ever reaching the shore.",
+   "kicker": "Tonight",
+   "pos": "bottom"
+  },
+  {
+   "type": "image",
+   "image": "portrait.jpg",
+   "style": "small",
+   "text": "Tonight’s question: what are you worrying about that hasn’t happened yet?",
+   "sub": "Answer in the comments",
+   "kicker": "Your turn",
+   "pos": "bottom",
+   "focus": 0.15
+  }
+ ],
+ "caption_morning_ig": "Most of what you fear will never happen. 🏛️\n\nNearly 2,000 years ago, Seneca wrote to his friend Lucilius: “We suffer more often in imagination than in reality.”\n\nSwipe for what he meant, who he was, and a 3-step exercise for the next time your mind starts to spiral ➡️\n\n💬 What is one fear that never came true? Tell us below.\n🔖 Save this for a hard day.\n\nAncient Wisdom. Modern Minds. Follow @thephilosophypage for a new idea every morning and an evening reflection every night.\n\n#ThePhilosophyProject #Seneca #Stoicism #Stoic #Philosophy #AncientWisdom #Anxiety #Overthinking #Mindset #DailyWisdom #Quotes #SelfImprovement #MentalStrength #RomanHistory #WisdomQuotes",
+ "caption_morning_fb": "Most of what you fear will never happen.\n\nNearly 2,000 years ago, the Roman Stoic Seneca wrote to his friend Lucilius: “We suffer more often in imagination than in reality.” (Letters to Lucilius, Letter 13)\n\nWhat he meant: we are rarely crushed by what is actually happening; we are worn down by what we imagine might happen. In the same letter: “Some things torment us more than they ought; some torment us before they ought; and some torment us when they ought not to torment us at all.”\n\nTry this the next time your mind starts to spiral:\n1. Name the fear in one sentence. Write it down.\n2. Ask Seneca’s question: is this happening now, or only in my head?\n3. If it is real, take one small action. If it is imagined, let it wait until it arrives.\n\nWhat is one fear that never came true? Tell us in the comments.\n\nAncient Wisdom. Modern Minds. — The Philosophy Project",
+ "caption_evening_ig": "Tonight’s reflection 🌙\n\n“Do not be unhappy before the crisis comes.” — Seneca, Letter 13\n\nWhat are you worrying about that hasn’t happened yet? Name it in the comments, then let it wait until morning.\n\nAncient Wisdom. Modern Minds. Follow @thephilosophypage\n\n#ThePhilosophyProject #Seneca #Stoicism #EveningReflection #AncientWisdom #Philosophy #Overthinking #Peace #Mindfulness #DailyWisdom",
+ "caption_evening_fb": "Tonight’s reflection\n\n“Do not be unhappy before the crisis comes.” — Seneca, Letters to Lucilius, Letter 13\n\nWhat are you worrying about that hasn’t happened yet? Name it in the comments, then let it wait until morning.\n\nAncient Wisdom. Modern Minds. — The Philosophy Project",
+ "image_prompts": {
+  "e1.jpg": "Cinematic fine-art photograph, vertical 4:5: a vast dark storm wall over a calm, glassy sea at dusk, warm golden light breaking through on the horizon, small ancient stone lighthouse, moody, painterly, deep shadows, no people, no text",
+  "e2.jpg": "Cinematic fine-art photograph, vertical 4:5: a lone figure in a simple linen cloak standing on a rocky cliff, seen from behind, watching a distant thunderstorm far out over the sea, warm last light on the rocks, sense of calm distance, no text",
+  "e3.jpg": "Cinematic fine-art photograph, vertical 4:5: soft sunrise over a perfectly calm Mediterranean sea after a storm, wet ancient marble steps leading down to the water, clearing clouds lit pink and gold, peaceful, no people, no text"
+ },
+ "date": "2026-10-19"
+}
