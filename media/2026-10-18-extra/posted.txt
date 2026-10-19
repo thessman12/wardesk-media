@@ -1,0 +1,4 @@
+Instagram carousel (slides only, no footage): media 17953474032293508 https://www.instagram.com/p/DeqEWZdl1vK/
+Facebook photos: 1275897742282879_122098390197517211
+Facebook video: not posted (no footage today)
+Errors: Zapier "Publish Photo(s)" failed once with "Could not upload media file. Fatal: Cannot Create Media"; published via Graph API container method instead.
