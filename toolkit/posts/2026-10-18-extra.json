@@ -1,0 +1,406 @@
+{
+ "date": "2026-10-18-extra",
+ "date_label": "Sun · Oct 18, 2026",
+ "slides": [
+  {
+   "type": "cover",
+   "kicker": "Daily war brief",
+   "title": "World<br>at [[war]]",
+   "fronts": [
+    {
+     "k": "Yemen · Saudi Arabia",
+     "v": "[[Saudi Arabia]] hit; Egypt ready to help"
+    },
+    {
+     "k": "Iran war · Day 233",
+     "v": "Tug hit off UAE; [[Trump]] threatens strikes"
+    },
+    {
+     "k": "Ukraine · Day 1,698",
+     "v": "Trump [[waives]] parts of Russia sanctions"
+    },
+    {
+     "k": "Gaza · West Bank",
+     "v": "Rubio [[disturbed]] by settler violence"
+    }
+   ],
+   "sources": "Sources: Al Jazeera, CBS, Fox/Reuters, Times of Israel, UKMTO, CENTCOM",
+   "map": {
+    "bbox": [
+     -5,
+     0,
+     72,
+     56
+    ],
+    "highlight": [
+     "Ukraine",
+     "Iran",
+     "Yemen",
+     "Saudi Arabia"
+    ],
+    "admin1": [
+     [
+      "Gaza Strip",
+      "Gaza Strip",
+      "#E5372B"
+     ]
+    ],
+    "labels": [
+     {
+      "lon": 31,
+      "lat": 52.5,
+      "text": "Ukraine",
+      "size": 22,
+      "color": "#F2F0EA"
+     },
+     {
+      "lon": 54,
+      "lat": 36.5,
+      "text": "Iran",
+      "size": 22,
+      "color": "#F2F0EA"
+     },
+     {
+      "lon": 43,
+      "lat": 24.5,
+      "text": "Saudi Arabia",
+      "size": 22,
+      "color": "#F2F0EA"
+     },
+     {
+      "lon": 48,
+      "lat": 12.2,
+      "text": "Yemen",
+      "size": 22,
+      "color": "#F2F0EA"
+     },
+     {
+      "lon": 28.5,
+      "lat": 32.3,
+      "text": "Gaza ▸",
+      "size": 22,
+      "color": "#F2F0EA"
+     }
+    ]
+   }
+  },
+  {
+   "type": "map",
+   "tag": "Yemen · Saudi Arabia",
+   "map": {
+    "bbox": [
+     38,
+     10,
+     53,
+     28.5
+    ],
+    "highlight": [
+     "Yemen",
+     "Saudi Arabia"
+    ],
+    "admin1": [],
+    "labels": [
+     {
+      "lon": 47,
+      "lat": 22,
+      "text": "Saudi Arabia"
+     },
+     {
+      "lon": 47.5,
+      "lat": 15.2,
+      "text": "Yemen"
+     },
+     {
+      "lon": 39.6,
+      "lat": 21.5,
+      "text": "◂ EGYPT"
+     }
+    ],
+    "points": [
+     {
+      "lon": 44.13,
+      "lat": 17.5,
+      "label": "Najran",
+      "sub": "Chopper down: 2 dead",
+      "kind": "strike",
+      "dx": -30,
+      "dy": -30
+     },
+     {
+      "lon": 46.7,
+      "lat": 24.7,
+      "label": "Riyadh",
+      "sub": "Air-threat alert",
+      "kind": "info",
+      "dx": 30,
+      "dy": -30
+     },
+     {
+      "lon": 45.03,
+      "lat": 12.8,
+      "label": "Aden",
+      "sub": "Airport hit Oct 16",
+      "kind": "strike",
+      "dx": 70,
+      "dy": -42
+     }
+    ]
+   },
+   "headline": "Saudi [[under fire.]] Cairo backs.",
+   "bullets": [
+    "**Najran:** coalition helicopter crashes, 2 crew dead; Houthis claim a shoot-down (Reuters).",
+    "**Egypt:** Sisi says it is ready to defend Saudi Arabia \"if requested\" (Oct 17).",
+    "**Riyadh:** air-threat alert; a skyscraper tells tenants to work from home (AFP)."
+   ],
+   "sources": "Sources: Reuters, AFP via Times of Israel; CBS live blog (Oct 16-18). Coalition and Houthi statements are claims."
+  },
+  {
+   "type": "map",
+   "tag": "Iran war · Day 233",
+   "map": {
+    "bbox": [
+     41,
+     21.5,
+     60,
+     36.5
+    ],
+    "highlight": [
+     "Iran"
+    ],
+    "admin1": [],
+    "labels": [
+     {
+      "lon": 53,
+      "lat": 32.5,
+      "text": "Iran"
+     },
+     {
+      "lon": 46.3,
+      "lat": 28.5,
+      "text": "Iraq"
+     }
+    ],
+    "points": [
+     {
+      "lon": 44.4,
+      "lat": 33.3,
+      "label": "Baghdad",
+      "sub": "Araghchi: plan stands",
+      "kind": "info",
+      "dx": 40,
+      "dy": 38
+     },
+     {
+      "lon": 56.5,
+      "lat": 26.6,
+      "label": "Hormuz",
+      "sub": "7-day reopening plan",
+      "kind": "info",
+      "dx": -40,
+      "dy": -34
+     },
+     {
+      "lon": 56.36,
+      "lat": 25.34,
+      "label": "Khor Fakkan",
+      "sub": "Tug hit, 1 hurt",
+      "kind": "strike",
+      "dx": -95,
+      "dy": 40
+     }
+    ]
+   },
+   "headline": "Tug hit. [[Threats fly.]]",
+   "bullets": [
+    "**Khor Fakkan:** two projectiles hit a tug off the UAE; one minor injury, UKMTO says.",
+    "**Hormuz:** Araghchi, in Baghdad, says Iran's 7-day reopening plan \"remains on the table\".",
+    "**Threats:** Trump says the US could \"soon finish the job\"; Araghchi: \"Want to try your luck again?\""
+   ],
+   "sources": "Sources: Fox/CBS live blogs citing UKMTO, Truth Social, X (Oct 18). Statements by Trump, Iran and CENTCOM are claims."
+  },
+  {
+   "type": "map",
+   "tag": "Ukraine · Day 1,698",
+   "map": {
+    "bbox": [
+     22,
+     44.5,
+     41,
+     53.5
+    ],
+    "highlight": [
+     "Ukraine"
+    ],
+    "admin1": [],
+    "labels": [
+     {
+      "lon": 38.5,
+      "lat": 52.2,
+      "text": "Russia"
+     },
+     {
+      "lon": 35,
+      "lat": 48.6,
+      "text": "Ukraine"
+     }
+    ],
+    "points": [
+     {
+      "lon": 25.33,
+      "lat": 50.75,
+      "label": "Volyn",
+      "sub": "2 killed",
+      "kind": "strike",
+      "dx": -10,
+      "dy": -40
+     },
+     {
+      "lon": 30.52,
+      "lat": 50.45,
+      "label": "Kyiv",
+      "sub": "Talks \"nonstop\"",
+      "kind": "info",
+      "dx": 10,
+      "dy": -40
+     },
+     {
+      "lon": 35.14,
+      "lat": 47.84,
+      "label": "Zaporizhzhia",
+      "sub": "1 killed, child hurt",
+      "kind": "strike",
+      "dx": 10,
+      "dy": 34
+     }
+    ]
+   },
+   "headline": "Sanctions [[waived.]] Strikes go on.",
+   "bullets": [
+    "**Sanctions:** Trump waives parts of Russia penalties, review up to 60 days; Zelenskyy warns it emboldens Putin.",
+    "**Kyiv:** Zelenskyy says the war \"must be brought to an end\"; Trump says he doesn't want that.",
+    "**Strikes:** Russian attacks kill 2 in Volyn and a woman in Zaporizhzhia, Ukrainian officials say."
+   ],
+   "sources": "Sources: Al Jazeera (Oct 18), Reuters via Fox. Casualty figures are from Ukrainian officials; statements by Trump and Zelenskyy are claims."
+  },
+  {
+   "type": "map",
+   "tag": "Gaza · West Bank",
+   "map": {
+    "bbox": [
+     33.6,
+     30.9,
+     36.4,
+     32.6
+    ],
+    "admin1": [
+     [
+      "Gaza Strip",
+      "Gaza Strip",
+      "#E5372B"
+     ],
+     [
+      "West Bank",
+      "West Bank",
+      "hatch"
+     ]
+    ],
+    "labels": [
+     {
+      "lon": 34.9,
+      "lat": 31.05,
+      "text": "Israel",
+      "size": 24
+     },
+     {
+      "lon": 36.1,
+      "lat": 31.2,
+      "text": "Jordan",
+      "size": 24
+     }
+    ],
+    "points": [
+     {
+      "lon": 34.4,
+      "lat": 31.42,
+      "label": "Al-Maghazi",
+      "sub": "Girl, 7, reported shot",
+      "kind": "strike",
+      "dx": -30,
+      "dy": -40
+     },
+     {
+      "lon": 35.31,
+      "lat": 31.95,
+      "label": "Taybeh",
+      "sub": "Diplomats attacked",
+      "kind": "info",
+      "dx": 34,
+      "dy": 36
+     },
+     {
+      "lon": 35.34,
+      "lat": 32.07,
+      "label": "Abu Falah",
+      "sub": "Journalist beaten",
+      "kind": "info",
+      "dx": 10,
+      "dy": -44
+     }
+    ]
+   },
+   "headline": "Settlers [[spark]] US alarm.",
+   "bullets": [
+    "**Taybeh:** Rubio says he is \"very disturbed\" by the attack on diplomats; urges a crackdown (Reuters).",
+    "**Abu Falah:** WaPo photographer Heidi Levine beaten Friday; her son says 4 vertebrae broke.",
+    "**Al-Maghazi:** Hamas-linked media say troops shot dead a girl, 7; the IDF has not commented."
+   ],
+   "sources": "Sources: Times of Israel liveblog (Oct 18), Reuters. Hamas-linked media reports are unverified."
+  },
+  {
+   "type": "stats",
+   "tag": "By the numbers",
+   "headline": "Today in [[4 numbers]]",
+   "stats": [
+    {
+     "n": "~97%",
+     "l": "Ships transiting Hormuz not hit, CENTCOM claims",
+     "s": "CENTCOM spokesman via CBS, Oct 18",
+     "amber": true
+    },
+    {
+     "n": "$109.86",
+     "l": "Brent crude settled Friday, highest since May 19",
+     "s": "Reuters via Fox, Oct 18"
+    },
+    {
+     "n": "20",
+     "l": "Houthi attacks on Riyadh airport in Oct, coalition says",
+     "s": "Coalition via CBS, Oct 16",
+     "amber": true
+    },
+    {
+     "n": "170+",
+     "l": "Settler attacks on Palestinians since Sep 27, Yesh Din",
+     "s": "Yesh Din via Reuters, Oct 18"
+    }
+   ],
+   "sources": "Sources: CBS, Fox/Reuters, Yesh Din. CENTCOM and coalition figures are party claims and unverified."
+  },
+  {
+   "type": "watch",
+   "tag": "What to watch",
+   "headline": "Next [[24 hours]]",
+   "bullets": [
+    "**Egypt:** parliament debates backing Saudi Arabia on Monday.",
+    "**Tehran:** Lavrov due Monday; will Trump \"finish the job\"?",
+    "**Hormuz:** does Iran block \"illegal routes\" near Oman's coast?",
+    "**West Bank:** Oct 27 vote; will Israel act on settler violence?"
+   ],
+   "cta": "Follow for the war brief every morning",
+   "cta_sub": "Turn on notifications · Share with someone who should know",
+   "sources": "WARDESK compiles reporting from named outlets. Casualty figures are as reported by the cited sources."
+  }
+ ],
+ "caption_instagram": "4 fronts. 24 hours. Here's what changed. ⬇️\n\n🇾🇪 YEMEN / SAUDI ARABIA — A Saudi-led coalition helicopter crashed in Najran, killing 2 crew; the coalition blames a technical fault, the Houthis claim a shoot-down (Reuters). Egypt's Sisi says Egypt is ready to defend Saudi Arabia \"if requested\" (CBS, Oct 17).\n\n🇮🇷 IRAN WAR (Day 233) — A tug was hit by two projectiles off Khor Fakkan, UAE; one minor injury (UKMTO). Araghchi says Iran's 7-day Hormuz plan \"remains on the table\"; Trump says the US could \"soon finish the job.\" CENTCOM claims ~97% of ships pass unhit (Fox/CBS).\n\n🇺🇦 UKRAINE (Day 1,698) — Trump waived parts of Russia sanctions with a review of up to 60 days; Zelenskyy warns it could embolden Putin. Russian strikes killed 2 in Volyn and a woman in Zaporizhzhia, Ukrainian officials say (Al Jazeera).\n\n🇵🇸 GAZA / WEST BANK — Rubio says he is \"very disturbed\" by settler violence after the Taybeh attack on diplomats (Reuters). Yesh Din counts 170+ settler attacks since Sep 27.\n\nSwipe for maps + numbers ➡️\nWhich front are you watching most? Comment below 👇\n\nSources: Al Jazeera, Reuters, CBS, Fox, Times of Israel, UKMTO. Warring-party claims are unverified.\n\nFollow @wardesk_daily for the war brief every morning.\n\n#worldnews #yemen #saudiarabia #iran #ukraine #russia #gaza #westbank #middleeast #geopolitics #breakingnews #news #war #houthis #straitofhormuz #wardesk",
+ "caption_facebook": "WORLD AT WAR: Sunday, Oct 18, 2026\n4 fronts, 24 hours. Here's what changed.\n\n🇾🇪 YEMEN / SAUDI ARABIA\n• A Saudi-led coalition helicopter crashed in Najran, killing 2 crew; the coalition blames a technical malfunction, the Houthis claim a shoot-down (Reuters).\n• Egypt's Sisi says Egypt is ready to defend Saudi Arabia \"if requested\" (CBS live blog, Oct 17).\n\n🇮🇷 IRAN WAR (Day 233)\n• A tug was hit by two unidentified projectiles off Khor Fakkan, UAE; one minor injury (UKMTO).\n• Araghchi says Iran's 7-day Hormuz plan \"remains on the table\"; Trump says the US could \"soon finish the job.\" CENTCOM claims ~97% of ships pass unhit.\n\n🇺🇦 UKRAINE (Day 1,698)\n• Trump waived parts of Russia sanctions pending a review of up to 60 days; Zelenskyy warns it could embolden Putin (Al Jazeera).\n• Russian strikes killed 2 in Volyn and a woman in Zaporizhzhia, Ukrainian officials say.\n\n🇵🇸 GAZA / WEST BANK\n• Rubio says he is \"very disturbed\" by settler violence after the Taybeh attack on diplomats (Reuters). Yesh Din counts 170+ settler attacks since Sep 27.\n• Hamas-linked media say troops shot dead a 7-year-old girl in central Gaza; the IDF has not commented (Times of Israel).\n\nSources: Al Jazeera, Reuters, CBS, Fox, Times of Israel, UKMTO. Warring-party claims are unverified.\n\n👉 Follow WARDESK for the war brief every morning."
+}
