@@ -1,0 +1,408 @@
+{
+ "date": "2026-10-19",
+ "date_label": "Mon · Oct 19, 2026",
+ "slides": [
+  {
+   "type": "cover",
+   "kicker": "Daily war brief",
+   "title": "World<br>at [[war]]",
+   "fronts": [
+    {
+     "k": "Ukraine · Day 1,699",
+     "v": "Trump–Kyiv rift as [[sanctions]] waived"
+    },
+    {
+     "k": "Iran war · Day 234",
+     "v": "Iran says Hormuz sees [[10 ships a day]]"
+    },
+    {
+     "k": "Yemen · Saudi",
+     "v": "WSJ: IRGC [[backs Houthis]]; Riyadh hit"
+    },
+    {
+     "k": "Gaza · West Bank",
+     "v": "Israel halts [[commercial goods]] to Gaza"
+    }
+   ],
+   "sources": "Sources: Al Jazeera/AFP/Reuters/AP, CBS News, WSJ (via Al Jazeera), OCHA, UN",
+   "map": {
+    "bbox": [
+     -5,
+     5,
+     72,
+     56
+    ],
+    "highlight": [
+     "Ukraine",
+     "Iran",
+     "Yemen",
+     "Saudi Arabia"
+    ],
+    "admin1": [
+     [
+      "Gaza Strip",
+      "Gaza Strip",
+      "#E5372B"
+     ]
+    ],
+    "labels": [
+     {
+      "lon": 31,
+      "lat": 52.5,
+      "text": "Ukraine",
+      "size": 22,
+      "color": "#F2F0EA"
+     },
+     {
+      "lon": 54,
+      "lat": 36.5,
+      "text": "Iran",
+      "size": 22,
+      "color": "#F2F0EA"
+     },
+     {
+      "lon": 48,
+      "lat": 12.2,
+      "text": "Yemen",
+      "size": 22,
+      "color": "#F2F0EA"
+     },
+     {
+      "lon": 28.5,
+      "lat": 32.3,
+      "text": "Gaza ▸",
+      "size": 22,
+      "color": "#F2F0EA"
+     },
+     {
+      "lon": 45,
+      "lat": 24.5,
+      "text": "Saudi",
+      "size": 22,
+      "color": "#F2F0EA"
+     }
+    ]
+   }
+  },
+  {
+   "type": "map",
+   "tag": "Ukraine · Day 1,699",
+   "map": {
+    "bbox": [
+     22,
+     44.5,
+     41,
+     54
+    ],
+    "highlight": [
+     "Ukraine"
+    ],
+    "admin1": [],
+    "labels": [
+     {
+      "lon": 38.5,
+      "lat": 52.2,
+      "text": "Russia"
+     },
+     {
+      "lon": 34,
+      "lat": 48.2,
+      "text": "Ukraine"
+     },
+     {
+      "lon": 31.5,
+      "lat": 53.7,
+      "text": "ST PETERSBURG ↑ 900 KM",
+      "size": 18,
+      "color": "#F2F0EA"
+     }
+    ],
+    "points": [
+     {
+      "lon": 30.52,
+      "lat": 50.45,
+      "label": "Kyiv",
+      "sub": "Metro station hit",
+      "kind": "strike",
+      "dx": 44,
+      "dy": -44
+     },
+     {
+      "lon": 35.14,
+      "lat": 47.84,
+      "label": "Zaporizhzhia",
+      "sub": "Woman killed",
+      "kind": "strike",
+      "dx": 10,
+      "dy": 38
+     },
+     {
+      "lon": 25.33,
+      "lat": 50.75,
+      "label": "Volyn",
+      "sub": "2 killed",
+      "kind": "strike",
+      "dx": -20,
+      "dy": 44
+     }
+    ]
+   },
+   "headline": "Rift widens. [[Kyiv hit again.]]",
+   "bullets": [
+    "**Kyiv:** missile strike killed a woman and hit a metro station, Mayor Klitschko says.",
+    "**Trump:** defends Russia sanctions waiver; says Zelenskyy \"doesn't want to end this war.\"",
+    "**St Petersburg:** Russia claims 1,015 Ukrainian drones downed; governor reports 1 dead."
+   ],
+   "sources": "Sources: Al Jazeera/AFP/Reuters (Oct 18-19), AP (Oct 16). Casualty and drone figures come from officials of each side and are unverified."
+  },
+  {
+   "type": "map",
+   "tag": "Iran war · Day 234",
+   "map": {
+    "bbox": [
+     38,
+     10,
+     64,
+     31
+    ],
+    "highlight": [
+     "Iran",
+     "Yemen"
+    ],
+    "labels": [
+     {
+      "lon": 54,
+      "lat": 31,
+      "text": "Iran"
+     },
+     {
+      "lon": 42,
+      "lat": 19.5,
+      "text": "Saudi Arabia"
+     }
+    ],
+    "points": [
+     {
+      "lon": 56.4,
+      "lat": 26.6,
+      "label": "Hormuz",
+      "sub": "~10 ships/day (Iran)",
+      "kind": "strike",
+      "dx": 20,
+      "dy": 36
+     },
+     {
+      "lon": 46.72,
+      "lat": 24.71,
+      "label": "Riyadh",
+      "sub": "Airport attacked",
+      "kind": "strike",
+      "dx": -10,
+      "dy": -38
+     },
+     {
+      "lon": 44.02,
+      "lat": 13.58,
+      "label": "Taiz",
+      "sub": "Fighting flares",
+      "kind": "info",
+      "dx": -30,
+      "dy": 28
+     },
+     {
+      "lon": 44.19,
+      "lat": 15.37,
+      "label": "Sanaa",
+      "sub": "Houthi-held",
+      "kind": "info",
+      "dx": -40,
+      "dy": -30
+     }
+    ],
+    "arrows": []
+   },
+   "headline": "Hormuz [[chokes.]] Yemen war grows.",
+   "bullets": [
+    "**Hormuz:** an IRGC adviser says ~10 ships a day transit vs 125 pre-war. Brent near $105 (CBS).",
+    "**Riyadh:** coalition says Houthis hit the airport 20 times in October; one attack killed 13.",
+    "**Yemen:** WSJ says Iranian flights carried IRGC officers and missile parts to Houthis. Both deny."
+   ],
+   "sources": "Sources: Al Jazeera, WSJ (via Al Jazeera), CBS News, Fars. Iran, IRGC, Houthi and coalition statements are claims."
+  },
+  {
+   "type": "map",
+   "tag": "Gaza",
+   "map": {
+    "bbox": [
+     34.0,
+     31.15,
+     35.0,
+     31.7
+    ],
+    "admin1": [
+     [
+      "Gaza Strip",
+      "Gaza Strip",
+      "#E5372B"
+     ]
+    ],
+    "labels": [
+     {
+      "lon": 34.75,
+      "lat": 31.28,
+      "text": "Israel",
+      "size": 24
+     },
+     {
+      "lon": 34.12,
+      "lat": 31.25,
+      "text": "Egypt",
+      "size": 24
+     }
+    ],
+    "points": [
+     {
+      "lon": 34.45,
+      "lat": 31.5,
+      "label": "Gaza City",
+      "sub": "Food prices up",
+      "kind": "info",
+      "dx": -60,
+      "dy": 40
+     },
+     {
+      "lon": 34.5,
+      "lat": 31.55,
+      "label": "Beit Lahiya",
+      "sub": "Meals skipped",
+      "kind": "info",
+      "dx": 60,
+      "dy": -40
+     }
+    ]
+   },
+   "headline": "Goods [[halted.]] Prices surge.",
+   "bullets": [
+    "**Halt:** Israel stopped commercial goods entering Gaza around Oct 14, citing a fee dispute.",
+    "**Gaza's media office:** rejects that, says there are no truck fees; wants 600 trucks a day.",
+    "**Prices:** OCHA: food 204% above pre-war in September. Residents say flour has more than doubled."
+   ],
+   "sources": "Sources: Al Jazeera (Oct 18), OCHA. Israeli and Gaza authorities' accounts of the dispute differ."
+  },
+  {
+   "type": "map",
+   "tag": "West Bank",
+   "map": {
+    "bbox": [
+     34.6,
+     31.3,
+     36.0,
+     32.3
+    ],
+    "admin1": [
+     [
+      "West Bank",
+      "West Bank",
+      "hatch"
+     ]
+    ],
+    "labels": [
+     {
+      "lon": 35.85,
+      "lat": 31.75,
+      "text": "Jordan",
+      "size": 24
+     },
+     {
+      "lon": 34.8,
+      "lat": 31.55,
+      "text": "Israel",
+      "size": 24
+     }
+    ],
+    "points": [
+     {
+      "lon": 35.29,
+      "lat": 31.95,
+      "label": "Taybeh",
+      "sub": "Diplomats attacked",
+      "kind": "strike",
+      "dx": 40,
+      "dy": -34
+     },
+     {
+      "lon": 35.2,
+      "lat": 31.9,
+      "label": "Ramallah",
+      "sub": "Harvesters beaten",
+      "kind": "info",
+      "dx": -60,
+      "dy": 20
+     },
+     {
+      "lon": 35.3,
+      "lat": 31.62,
+      "label": "Kisan",
+      "sub": "120 olive trees cut",
+      "kind": "strike",
+      "dx": -70,
+      "dy": 40
+     }
+    ]
+   },
+   "headline": "Diplomats [[beaten.]] EU angry.",
+   "bullets": [
+    "**Taybeh (Oct 17):** masked settlers attacked French, Belgian, Polish diplomats; a French mayor was beaten.",
+    "**Israel:** FM Saar condemns it; Netanyahu's office questions the video evidence.",
+    "**Harvest:** UN counts ~200 settler attacks this season, above 185 all last year."
+   ],
+   "sources": "Sources: Al Jazeera/AFP/Reuters (Oct 18), UN OCHA. Israeli statements are claims."
+  },
+  {
+   "type": "stats",
+   "tag": "By the numbers",
+   "headline": "Today in [[4 numbers]]",
+   "stats": [
+    {
+     "n": "1,015",
+     "l": "Ukrainian drones \"neutralised\" in one night, Russia's MoD claims",
+     "s": "Russian MoD via Al Jazeera, Oct 18",
+     "amber": true
+    },
+    {
+     "n": "~2,700",
+     "l": "Russian attack drones in 7 days, Zelenskyy says (claim)",
+     "s": "Zelenskyy via Al Jazeera, Oct 18",
+     "amber": true
+    },
+    {
+     "n": "328",
+     "l": "Ukrainian civilians killed in September, a UN report says",
+     "s": "UN human rights office via AP, Oct 16"
+    },
+    {
+     "n": "204%",
+     "l": "Gaza food prices above pre-Oct 2023 levels, September",
+     "s": "OCHA via Al Jazeera, Oct 18"
+    }
+   ],
+   "sources": "Sources: Al Jazeera, AP, OCHA. Drone counts are party claims and unverified."
+  },
+  {
+   "type": "watch",
+   "tag": "What to watch",
+   "headline": "This [[week]]",
+   "bullets": [
+    "**Ukraine:** Will Trump's 60-day Russia sanctions waiver hold?",
+    "**Hormuz:** Will Iran close the Oman-coast routes it calls illegal?",
+    "**Lebanon:** What comes of the Oct 20 Tampa talks?",
+    "**Israel:** Election Oct 27: will settler attacks bring sanctions?"
+   ],
+   "cta": "Follow for the war brief every morning",
+   "cta_sub": "Turn on notifications · Share with someone who should know",
+   "sources": "WARDESK compiles reporting from named outlets. Casualty figures are as reported by the cited sources."
+  }
+ ],
+ "caption_instagram": "Biggest story: Trump and Kyiv are openly split. ⬇️\n\n🇺🇦 UKRAINE (Day 1,699) — Trump defended waiving Russia sanctions and said Zelenskyy \"doesn't want to end this war\"; Zelenskyy told NBC the waiver strengthens Putin (Al Jazeera). A Russian missile strike killed a woman in Kyiv, Mayor Klitschko says. Russia claims it downed 1,015 Ukrainian drones; St Petersburg's governor reports 1 dead.\n\n🇮🇷 IRAN WAR (Day 234) — An IRGC adviser says ~10 ships a day cross Hormuz vs 125 pre-war (Fars via reports). WSJ reports Iranian flights carried IRGC officers and missile parts to the Houthis; Iran and the Houthis deny it (Al Jazeera).\n\n🇵🇸 GAZA — Israel halted commercial goods around Oct 14, citing a fee dispute; Gaza's media office denies it. OCHA: food prices 204% above pre-war.\n\n🇵🇸 WEST BANK — Masked settlers attacked French, Belgian and Polish diplomats near Taybeh on Oct 17; the EU demands accountability (Al Jazeera/AFP).\n\nWhich front are you watching most? Comment below 👇\n\nSources: Al Jazeera/AFP/Reuters/AP, CBS News, WSJ, OCHA. Warring-party claims are unverified.\n\nFollow @wardesk_daily for the war brief every morning.\n\n#worldnews #ukraine #russia #iran #gaza #westbank #yemen #middleeast #geopolitics #breakingnews #news #war #straitofhormuz #wardesk",
+ "caption_facebook": "WORLD AT WAR: Monday, Oct 19, 2026\nHere's what changed.\n\n🇺🇦 UKRAINE (Day 1,699)\n• Trump defended waiving Russia sanctions and said Zelenskyy \"doesn't want to end this war.\" Zelenskyy told NBC the waiver would strengthen Putin's war effort. Rubio says there was \"no pause\" in US intelligence sharing; Zelenskyy says it was blocked, then restored.\n• A Russian missile strike killed a woman and hit a metro station in Kyiv, Mayor Klitschko says. Zelenskyy cites almost 2,700 Russian drones, 1,700 bombs and 66 missiles in a week.\n• St Petersburg: the governor reports 1 dead and 5 injured. Russia's ministry claims 1,015 Ukrainian drones downed (Al Jazeera citing AFP/Reuters).\n\n🇮🇷 IRAN WAR (Day 234)\n• An IRGC adviser says about 10 ships a day transit Hormuz vs 125 before the war. CBS: Brent near $105 (Oct 14).\n• WSJ reports Iranian flights carried IRGC officers, drone parts and missile guidance systems to the Houthis; Iran and the Houthis deny it. The coalition says Houthis hit Riyadh's airport 20 times in October.\n\n🇵🇸 GAZA / WEST BANK\n• Israel halted commercial goods into Gaza around Oct 14, citing a fee dispute; Gaza's media office rejects that. OCHA: food prices 204% above pre-war in September.\n• Masked settlers attacked French, Belgian and Polish diplomats near Taybeh on Oct 17. Israel's FM condemned it; the UN counts nearly 200 harvest-related settler attacks this season.\n\nSources: Al Jazeera/AFP/Reuters/AP, CBS News, WSJ, OCHA. Warring-party claims are unverified.\n\n👉 Follow WARDESK for the war brief every morning."
+}
